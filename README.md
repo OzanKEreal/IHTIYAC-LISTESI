@@ -3,6 +3,9 @@
 * KATEGORILER AŞAĞIDADIR TIKLAYARAK GİDEBİLİRSİNİZ
 * Bilgi: Bugüne kadar öğrendiğim Tüm bilgileri sizinle paylaşmaya çalışıyorum!
 * Belgelerde En iyiler en üstte 1. Sırada eklenmiştir Belgeler En iyiden en kötüye 1>... Olarak ilerlemektedir
+* Önemli uyarı: Belgelerde Yapay zeka (AI) Teknolojisinden faydalanılmıştır
+* Belgelerin doğruluğu %100 Oranında değildir
+* Öneri ve hata için issues bölümünü kullanın.
 ---
 
 # 📚 KODLAMA VE GELİŞTİRME
