@@ -2,6 +2,7 @@
 * YOUTUBE: OZANKE34
 * KATEGORILER AŞAĞIDADIR TIKLAYARAK GİDEBİLİRSİNİZ
 * Bilgi: Bugüne kadar öğrendiğim Tüm bilgileri sizinle paylaşmaya çalışıyorum!
-* Bu döküman Sizlere Yardımcı olursa beğenmeyi ve arkadaşlarınızla paylaşmayı unutmayın
+* Belgelerde En iyiler en üstte 1. Sırada eklenmiştir Belgeler En iyiden en kötüye 1>... Olarak ilerlemektedir
 ---
-Hazırlıyoruz... Yakında burada
+# Kodlama
+[Kod Editörleri](docs/Kodeditör.md)
