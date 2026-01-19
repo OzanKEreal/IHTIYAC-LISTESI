@@ -312,5 +312,5 @@
 
 ---
 
-**Son Güncelleme**: 2025
+**Son Güncelleme**: 2026
 **Not**: Her bir programın güncel sürümü ve fiyatı için resmi web sitelerini ziyaret edin.

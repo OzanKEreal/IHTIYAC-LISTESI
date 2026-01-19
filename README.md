@@ -111,6 +111,6 @@ ZIP, RAR, 7Z ve diğer arşiv formatları
 
 ---
 
-**Son Güncelleme**: 2025
+**Son Güncelleme**: 2026
 **Toplam Kategori**: 20+
 **Toplam Program Önerisi**: 400+
