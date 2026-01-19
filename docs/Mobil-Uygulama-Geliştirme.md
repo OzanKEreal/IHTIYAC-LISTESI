@@ -1,304 +1,300 @@
-### MOBİL UYGULAMA GELİŞTİRME
+### MOBIL UYGULAMA GELİŞTİRME
 ---
 
-## Cross-Platform Frameworks
+## Cross-Platform Framework'ler
 
 ### 1. React Native
 - **Platform**: Windows, macOS, Linux
 - **Fiyat**: Ücretsiz ve Açık Kaynak
-- **Özellikers**:
-  - Open source
-  - JavaScript + React
-  - iOS ve Android
-  - Native components
-  - Hot reload
-  - Expo (tooling)
-  - Community
-  - Integration (TypeScript, etc.)
-- **En İyi Kullanım**: Cross-platform mobile development
+- **Özellikler**:
+  - JavaScript/TypeScript
+  - Native performance
+  - Hot reloading
+  - Large community
+  - Rich ecosystem
+  - Facebook/Instagram tarafından geliştirildi
+  - Cross-platform deployment
+  - Live reload
+- **En İyi Kullanım**: React bilenler için cross-platform mobil geliştirme
 - **Web**: https://reactnative.dev
 
 ### 2. Flutter
 - **Platform**: Windows, macOS, Linux
 - **Fiyat**: Ücretsiz ve Açık Kaynak
-- **Özellikers**:
-  - Open source
-  - Dart
-  - Cross-platform (iOS, Android, Web, Desktop)
+- **Özellikler**:
+  - Dart programlama dili
   - Hot reload
-  - Widget-based UI
-  - Material Design & Cupertino
-  - Performance
-  - Integration (Firebase, etc.)
-- **En İyi Kullanım**: High-performance cross-platform
+  - Beautiful UI widgets
+  - High performance
+  - Google tarafından geliştirildi
+  - Cross-platform deployment
+  - State management
+  - Animation support
+- **En İyi Kullanım**: Yüksek performanslı ve güzel arayüzler
 - **Web**: https://flutter.dev
 
 ### 3. Xamarin
-- **Platform**: Windows, macOS
-- **Fiyat**: Ücretsiz (Visual Studio Community)
-- **Özellikers**:
-  - Microsoft
-  - C#
-  - iOS, Android, UWP
+- **Platform**: Windows, macOS, Linux
+- **Fiyat**: Ücretsiz / Ücretli (Visual Studio subscription)
+- **Özellikler**:
+  - C# programlama dili
+  - .NET ecosystem
   - Native performance
+  - Microsoft tarafından geliştirildi
+  - Cross-platform deployment
   - Visual Studio integration
-  - Xamarin.Forms
-  - Xamarin.iOS/Android
-- **En İyi Kullanım**: .NET mobile development
-- **Web**: https://dotnet.microsoft.com/en-us/apps/xamarin
+  - Plugin ecosystem
+  - Native API access
+- **En İyi Kullanım**: .NET ve C# bilenler için
+- **Web**: https://dotnet.microsoft.com/xamarin
 
 ### 4. Ionic
 - **Platform**: Windows, macOS, Linux
-- **Fiyat**: Ücretsiz ve Açık Kaynak (Ücretli Enterprise planlar mevcut)
-- **Özellikers**:
-  - Open source
-  - HTML, CSS, JavaScript
-  - Cross-platform (iOS, Android, Web)
-  - Capacitor
-  - UI components
-  - Angular, React, Vue support
-  - Progressive Web Apps (PWA)
-- **En İyi Kullanım**: Web-based mobile apps
+- **Fiyat**: Ücretsiz / Ücretli ($19-99/ay)
+- **Özellikler**:
+  - Angular, React, Vue
+  - Web technologies
+  - Native device access
+  - App Store deployment
+  - PWA support
+  - Ionic Native plugins
+  - Enterprise support
+  - Analytics
+- **En İyi Kullanım**: Web geliştiriciler için mobil uygulama
 - **Web**: https://ionicframework.com
 
-### 5. NativeScript
+### 5. Unity
+- **Platform**: Windows, macOS, Linux
+- **Fiyat**: Ücretsiz / Ücretli ($20-125/ay)
+- **Özellikler**:
+  - C# programlama dili
+  - Game engine
+  - 2D ve 3D development
+  - Cross-platform deployment
+  - Asset store
+  - Visual scripting
+  - Physics engine
+  - Animation system
+- **En İyi Kullanım**: Oyun ve interaktif uygulamalar
+- **Web**: https://unity.com
+
+## Native Development Araçları
+
+### 6. Swift (iOS)
+- **Platform**: macOS
+- **Fiyat**: Ücretsiz
+- **Özellikler**:
+  - Apple programlama dili
+  - Modern syntax
+  - Strong typing
+  - Memory management
+  - SwiftUI framework
+  - Combine framework
+  - Core Data
+  - Core Animation
+- **En İyi Kullanım**: iOS ve macOS native geliştirme
+- **Web**: https://developer.apple.com/swift
+
+### 7. Kotlin (Android)
 - **Platform**: Windows, macOS, Linux
 - **Fiyat**: Ücretsiz ve Açık Kaynak
-- **Özellikers**:
-  - Open source
-  - JavaScript, TypeScript, Angular
-  - iOS ve Android
-  - Native API access
-  - Hot module replacement
-  - Vue.js support
-  - CLI tools
-- **En İyi Kullanım**: Native cross-platform apps
-- **Web**: https://nativescript.org
+- **Özellikler**:
+  - Modern programlama dili
+  - Null safety
+  - Coroutines
+  - Jetpack Compose
+  - Android Studio integration
+  - Multi-platform support
+  - Interoperability with Java
+  - Rich ecosystem
+- **En İyi Kullanım**: Android native geliştirme
+- **Web**: https://kotlinlang.org
 
-## Native Development
-
-### 6. Xcode
+### 8. Objective-C (iOS)
 - **Platform**: macOS
 - **Fiyat**: Ücretsiz
-- **Özellikers**:
-  - Apple için IDE
-  - Swift ve Objective-C
-  - iOS, macOS, watchOS, tvOS
-  - Interface Builder
-  - Simulator
-  - SwiftUI
-  - Live Previews
-  - Instruments (profiling)
-- **En İyi Kullanım**: iOS/macOS development
-- **Web**: https://developer.apple.com/xcode
+- **Özellikler**:
+  - C tabanlı dil
+  - Legacy iOS development
+  - Foundation framework
+  - Core Data
+  - Core Animation
+  - Legacy codebase support
+  - Mature ecosystem
+  - Performance optimization
+- **En İyi Kullanım**: Eski iOS projeleri ve legacy kod
+- **Web**: https://developer.apple.com/documentation/objectivec
 
-### 7. Android Studio
+### 9. Java (Android)
+- **Platform**: Windows, macOS, Linux
+- **Fiyat**: Ücretsiz ve Açık Kaynak
+- **Özellikler**:
+  - Mature language
+  - Android Studio integration
+  - Android SDK
+  - Large community
+  - Cross-platform JVM
+  - Rich libraries
+  - Enterprise support
+  - Performance optimization
+- **En İyi Kullanım**: Android geliştirme ve enterprise uygulamalar
+- **Web**: https://openjdk.org
+
+## Mobil Geliştirme IDE'leri
+
+### 10. Android Studio
 - **Platform**: Windows, macOS, Linux
 - **Fiyat**: Ücretsiz
-- **Özellikers**:
-  - Google için IDE
-  - Kotlin ve Java
-  - Android development
+- **Özellikler**:
+  - Official Android IDE
+  - Java/Kotlin support
+  - Visual layout editor
   - Emulator
-  - Layout Editor
   - Profiler
-  - Gradle build system
-  - Instant Run
-- **En İyi Kullanım**: Android development
+  - Git integration
+  - Plugin system
+  - AVD manager
+- **En İyi Kullanım**: Android uygulama geliştirme
 - **Web**: https://developer.android.com/studio
 
-### 8. Visual Studio (Mobile)
+### 11. Xcode
+- **Platform**: macOS
+- **Fiyat**: Ücretsiz
+- **Özellikler**:
+  - Official iOS/macOS IDE
+  - Swift/Objective-C support
+  - Interface Builder
+  - Simulator
+  - Instruments
+  - Swift Playgrounds
+  - TestFlight integration
+  - App Store Connect
+- **En İyi Kullanım**: iOS ve macOS uygulama geliştirme
+- **Web**: https://developer.apple.com/xcode
+
+### 12. Visual Studio
 - **Platform**: Windows, macOS
-- **Fiyat**: Ücretsiz (Community) / Ücretli (Professional)
-- **Özellikers**:
-  - Microsoft IDE
-  - C# (Xamarin)
-  - JavaScript/TypeScript (React Native)
-  - Integration (Android Studio, Xcode)
-  - Emulator integration
-  - Debugger
+- **Fiyat**: Ücretsiz / Ücretli ($10-45/ay)
+- **Özellikler**:
+  - Multi-platform support
+  - Xamarin integration
+  - C# development
   - IntelliSense
-- **En İyi Kullanım**: Cross-platform mobile development
+  - Debugger
+  - Git integration
+  - Extensions marketplace
+  - Azure integration
+- **En İyi Kullanım**: .NET ve mobil geliştirme
 - **Web**: https://visualstudio.microsoft.com
 
-### 9. IntelliJ IDEA (Android)
+### 13. JetBrains AppCode
 - **Platform**: Windows, macOS, Linux
-- **Fiyat**: Ücretsiz (Android Studio built on IntelliJ) / Ücretli (Ultimate)
-- **Özellikers**:
-  - Android development
-  - Kotlin ve Java
+- **Fiyat**: Ücretli ($8.90/ay)
+- **Özellikler**:
+  - Swift/Objective-C IDE
   - Smart code completion
-  - Refactoring
+  - Refactoring tools
   - Debugger
-  - Integration (Gradle, Git, etc.)
-  - Plugins
-- **En İyi Kullanım**: Android development
-- **Web**: https://www.jetbrains.com/idea
-
-### 10. VS Code (Mobile extensions)
-- **Platform**: Windows, macOS, Linux
-- **Fiyat**: Ücretsiz
-- **Özellikers**:
-  - React Native extension
-  - Flutter extension
-  - NativeScript extension
-  - Debugger
-  - IntelliSense
   - Git integration
-  - Terminal
-  - Extensions
-- **En İyi Kullanım**: Lightweight mobile dev
-- **Web**: https://code.visualstudio.com
+  - CocoaPods support
+  - Unit testing
+  - Performance analysis
+- **En İyi Kullanım**: iOS/macOS geliştirme için profesyonel IDE
+- **Web**: https://www.jetbrains.com/appcode
 
-## UI/UX Design Tools
+## Mobil Test Araçları
 
-### 11. Figma
-- **Platform**: Web, Windows, macOS
-- **Fiyat**: Ücretsiz (Starter) / Ücretli ($12-45/month)
-- **Özellikers**:
-  - Collaborative design
-  - Prototyping
-  - Vector networks
-  - Auto layout
-  - Components
-  - Plugins
-  - Dev mode
-  - Mobile design
-- **En İyi Kullanım**: Mobile UI design
-- **Web**: https://www.figma.com
+### 14. Appium
+- **Platform**: Web, Windows, macOS, Linux
+- **Fiyat**: Ücretsiz ve Açık Kaynak
+- **Özellikler**:
+  - Cross-platform automation
+  - Multiple languages
+  - Real device testing
+  - Cloud testing
+  - Visual testing
+  - Performance testing
+  - CI/CD integration
+  - Mobile app testing
+- **En İyi Kullanım**: Cross-platform mobil test otomasyonu
+- **Web**: https://appium.io
 
-### 12. Adobe XD
-- **Platform**: Windows, macOS
-- **Fiyat**: Ücretsiz / Ücretli ($9.99/month)
-- **Özellikers**:
-  - UI/UX design
-  - Prototyping
-  - Auto-animate
-  - Responsive Resize
-  - Voice prototyping
-  - Integration (Photoshop, Illustrator)
-  - Adobe Cloud
-- **En İyi Kullanım**: Mobile UI design
-- **Web**: https://www.adobe.com/products/xd.html
+### 15. Firebase Test Lab
+- **Platform**: Web
+- **Fiyat**: Ücretsiz / Ücretli (Google Cloud kotasına göre)
+- **Özellikler**:
+  - Cloud-based testing
+  - Multiple devices
+  - Automated testing
+  - Performance testing
+  - Crash reporting
+  - App distribution
+  - Real device testing
+  - Integration with Firebase
+- **En İyi Kullanım**: Bulut tabanlı mobil test
+- **Web**: https://firebase.google.com/test-lab
 
-### 13. Sketch
-- **Platform**: macOS
-- **Fiyat**: Ücretli ($9/month veya $99/yıl)
-- **Özellikers**:
-  - Vector design
-  - UI design
-  - Prototyping
-  - Libraries
-  - Collaboration
-  - Plugins
-  - Mac optimize
-- **En İyi Kullanım**: Mac mobile UI design
-- **Web**: https://www.sketch.com
+### 16. Detox
+- **Platform**: Windows, macOS, Linux
+- **Fiyat**: Ücretsiz ve Açık Kaynak
+- **Özellikler**:
+  - End-to-end testing
+  - Native automation
+  - JavaScript/TypeScript
+  - Fast execution
+  - Reliable testing
+  - CI/CD integration
+  - Multi-platform support
+  - Visual debugging
+- **En İyi Kullanım**: React Native uygulamaları için test
+- **Web**: https://github.com/wix/Detox
 
-### 14. Framer
-- **Platform**: Web, macOS
-- **Fiyat**: Ücretsiz (Starter) / Ücretli ($15-30/month)
-- **Özellikers**:
-  - Interactive prototyping
-  - Animation
-  - React-based
-  - Auto layout
-  - Code export
-  - Real-time collaboration
-  - Mobile design
-- **En İyi Kullanım**: Interactive mobile prototypes
-- **Web**: https://www.framer.com
+## Mobil Analytics ve Monitörleme
 
-### 15. Principle
-- **Platform**: macOS
-- **Fiyat**: Ücretli ($129 one-time)
-- **Özellikers**:
-  - Mac optimize
-  - Interactive animations
-  - Real-time preview
-  - Multi-screen
-  - Drivers
-  - Export options
-  - 3D effects
-  - Touch interactions
-- **En İyi Kullanım**: Mac mobile animations
-- **Web**: https://principleformac.com
+### 17. Firebase Analytics
+- **Platform**: Web
+- **Fiyat**: Ücretsiz / Ücretli (Google Cloud kotasına göre)
+- **Özellikler**:
+  - Real-time analytics
+  - User behavior tracking
+  - Crash reporting
+  - Performance monitoring
+  - A/B testing
+  - Remote config
+  - Notifications
+  - Integration with Firebase
+- **En İyi Kullanım**: Mobil uygulama analizi ve izleme
+- **Web**: https://firebase.google.com/analytics
 
-## Backend ve API Integration
+### 18. Mixpanel
+- **Platform**: Web
+- **Fiyat**: Ücretsiz / Ücretli ($25-999/ay)
+- **Özellikler**:
+  - Product analytics
+  - User behavior tracking
+  - Funnel analysis
+  - Retention analysis
+  - Real-time dashboard
+  - Custom events
+  - Data export
+  - Mobile SDK
+- **En İyi Kullanım**: Ürün analizi ve kullanıcı davranışları
+- **Web**: https://mixpanel.com
 
-### 16. Firebase
-- **Platform**: Cross-platform
-- **Fiyat**: Ücretsiz (Spark plan) / Ücretli (Blaze - pay as you go)
-- **Özellikers**:
-  - Backend-as-a-Service
-  - Realtime database
-  - Firestore
-  - Authentication
-  - Storage
-  - Hosting
-  - Functions (serverless)
-  - Analytics
-  - Crashlytics
-- **En İyi Kullanım**: Mobile backend
-- **Web**: https://firebase.google.com
-
-### 17. AWS Amplify
-- **Platform**: Cross-platform
-- **Fiyat**: Ücretsiz tier / Ücretli (pay as you go)
-- **Özellikers**:
-  - AWS mobile SDK
-  - Backend-as-a-Service
-  - Authentication (Cognito)
-  - Storage (S3)
-  - API (AppSync)
-  - Functions (Lambda)
-  - Analytics
-- **En İyi Kullanım**: AWS mobile backend
-- **Web**: https://aws.amazon.com/amplify
-
-### 18. Back4App
-- **Platform**: Cross-platform
-- **Fiyat**: Ücretsiz tier / Ücretli (pay as you go)
-- **Özellikers**:
-  - Backend-as-a-Service
-  - Parse Server based
-  - Database (MongoDB)
-  - Authentication
-  - Push notifications
-  - Real-time
-  - Code (serverless functions)
-  - Live query
-- **En İyi Kullanım**: Parse-based mobile backend
-- **Web**: https://www.back4app.com
-
-### 19. Supabase
-- **Platform**: Cross-platform
-- **Fiyat**: Ücretsiz tier / Ücretli (pay as you go)
-- **Özellikers**:
-  - Open source Firebase alternative
-  - PostgreSQL database
-  - Real-time
-  - Authentication
-  - Storage
-  - Edge functions
-  - API (REST, GraphQL)
-  - UI dashboard
-- **En İyi Kullanım**: Open-source mobile backend
-- **Web**: https://supabase.com
-
-### 20. Kinvey
-- **Platform**: Cross-platform
-- **Fiyat**: Ücretsiz tier / Ücretli (pay as you go)
-- **Özellikers**:
-  - Mobile backend
-  - Data storage
-  - Authentication
-  - Push notifications
-  - Business logic
-  - Integration (Progress, etc.)
-  - Monitoring
-- **En İyi Kullanım**: Enterprise mobile backend
-- **Web**: https://www.progress.com/kinvey
+### 19. Amplitude
+- **Platform**: Web
+- **Fiyat**: Ücretsiz / Ücretli ($50-1,500/ay)
+- **Özellikler**:
+  - Product analytics
+  - User engagement
+  - Behavioral analytics
+  - Funnel analysis
+  - Retention analysis
+  - Real-time dashboard
+  - Collaboration tools
+  - Mobile SDK
+- **En İyi Kullanım**: Kullanıcı etkileşimi ve ürün analizi
+- **Web**: https://amplitude.com
 
 ---
 

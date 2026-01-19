@@ -1,300 +1,440 @@
-### BLOCKCHAIN VE KRİPTO
+### BLOCKCHAIN VE KRIPTO PARA
 ---
 
-## Kripto Borsaları
+## Kripto Borsaları ve Trading Platformları
 
 ### 1. Binance
-- **Platform**: Web, iOS, Android, Desktop
-- **Fiyat**: Ücretsiz (0.1% trading fee)
-- **Özellikers**:
-  - Kripto borsası
-  - Spot ve futures trading
-  - 600+ kripto
+- **Platform**: Web, iOS, Android
+- **Fiyat**: Ücretsiz / Ücretli (Trading fees: 0.1%)
+- **Özellikler**:
+  - Largest cryptocurrency exchange
+  - 350+ cryptocurrencies
+  - Spot trading, futures, margin
+  - Staking and yield farming
   - P2P trading
-  - Staking
-  - Earn
-  - NFT marketplace
-  - API
-- **En İyi Kullanım**: Global kripto trading
+  - Launchpad (ICO platform)
+  - Binance Coin (BNB)
+  - Mobile app
+  - API for developers
+  - Advanced trading features
+- **En İyi Kullanım**: Kapsamlı kripto para alım satım
 - **Web**: https://www.binance.com
 
 ### 2. Coinbase
 - **Platform**: Web, iOS, Android
-- **Fiyat**: Ücretsiz ($0.99-$2.99 fee for small trades)
-- **Özellikers**:
-  - US-regulated borsa
-  - Fiat on-ramp
-  - Coinbase Card
-  - Staking
-  - Earn
-  - Learn
-  - Custody
-  - Commerce
-- **En İyi Kullanım**: US-regulated kripto trading
+- **Fiyat**: Ücretsiz / Ücretli (Trading fees: 0.5-4.99%)
+- **Özellikler**:
+  - User-friendly exchange
+  - 50+ cryptocurrencies
+  - Simple and advanced trading
+  - Staking rewards
+  - Coinbase Card (debit card)
+  - Institutional services
+  - Insurance coverage
+  - Mobile app
+  - API integration
+  - Educational resources
+- **En İyi Kullanım**: Başlangıç seviyesi kullanıcılar için
 - **Web**: https://www.coinbase.com
 
 ### 3. Kraken
 - **Platform**: Web, iOS, Android
-- **Fiyat**: Ücretsiz (0.16-0.26% maker fee)
-- **Özellikers**:
-  - Borsa
-  - Futures trading
+- **Fiyat**: Ücretsiz / Ücretli (Trading fees: 0-0.26%)
+- **Özellikler**:
+  - Professional trading platform
+  - 50+ cryptocurrencies
+  - Spot and futures trading
   - Margin trading
-  - Staking
-  - OTC desk
-  - Futures
-  - Earn
-  - API
-- **En İyi Kullanım**: Global kripto trading
+  - Staking services
+  - Institutional services
+  - Advanced order types
+  - Security features
+  - API integration
+  - Mobile app
+- **En İyi Kullanım**: Profesyonel ve kurumsal kullanıcılar
 - **Web**: https://www.kraken.com
 
 ### 4. KuCoin
 - **Platform**: Web, iOS, Android
-- **Fiyat**: Ücretsiz (0.1% trading fee)
-- **Özellikers**:
-  - Borsa
-  - 700+ kripto
-  - Spot ve futures
+- **Fiyat**: Ücretsiz / Ücretli (Trading fees: 0.1%)
+- **Özellikler**:
+  - Global cryptocurrency exchange
+  400+ cryptocurrencies
+  - Spot and futures trading
   - P2P trading
-  - Staking
-  - Margin trading
-  - Earn
-  - NFT marketplace
-- **En İyi Kullanım**: Altcoin trading
+  - Staking and lending
+  - KCS token benefits
+  - Mobile app
+  - API integration
+  - Advanced trading features
+  - Community rewards
+- **En İyi Kullanım**: Geniş kripto para seçenekleri
 - **Web**: https://www.kucoin.com
 
-### 5. OKX
+### 5. Huobi
 - **Platform**: Web, iOS, Android
-- **Fiyat**: Ücretsiz (0.08-0.1% trading fee)
-- **Özellikers**:
-  - Borsa
-  - Spot ve futures
-  - DeFi
-  - NFT marketplace
-  - Earn
-  - Web3 wallet
-  - P2P trading
-  - API
-- **En İyi Kullanım**: Advanced crypto trading
-- **Web**: https://www.okx.com
+- **Fiyat**: Ücretsiz / Ücretli (Trading fees: 0.1-0.2%)
+- **Özellikler**:
+  - Global cryptocurrency exchange
+  - 200+ cryptocurrencies
+  - Spot and futures trading
+  - Staking and lending
+  - Institutional services
+  - Mobile app
+  - API integration
+  - Advanced trading features
+  - Security features
+  - Global presence
+- **En İyi Kullanım**: Uluslararası kripto para ticareti
+- **Web**: https://www.huobi.com
 
-## Cüzdanlar (Wallets)
+## Kripto Cüzdanları
 
 ### 6. MetaMask
-- **Platform**: Web extension, iOS, Android
-- **Fiyat**: Ücretsiz (network fees)
-- **Özellikers**:
-  - Web3 wallet
-  - Ethereum ve EVM chains
-  - DEX integration (Uniswap, etc.)
-  - NFT gallery
-  - Swap
-  - Multi-chain
+- **Platform**: Browser extension, Mobile
+- **Fiyat**: Ücretsiz
+- **Özellikler**:
+  - Ethereum wallet
   - Browser extension
   - Mobile app
-- **En İyi Kullanım**: Web3 wallet
+  - DApp integration
+  - Token support
+  - Hardware wallet integration
+  - Private key management
+  - Transaction history
+  - Gas fee estimation
+  - Community support
+- **En İyi Kullanım**: Ethereum ve DeFi uygulamaları
 - **Web**: https://metamask.io
 
 ### 7. Trust Wallet
 - **Platform**: iOS, Android
 - **Fiyat**: Ücretsiz
-- **Özellikers**:
-  - Multi-chain wallet
-  - DApps browser
-  - Staking
-  - NFT gallery
-  - Swap
-  - Binance integration
-  - 100+ blockchains
-- **En İyi Kullanım**: Mobile wallet
+- **Özellikler**:
+  - Multi-currency wallet
+  - 1M+ cryptocurrencies
+  - DeFi integration
+  - NFT support
+  - Browser extension
+  - Private key management
+  - Staking rewards
+  - DApp browser
+  - Security features
+  - Binance ecosystem
+- **En İyi Kullanım**: Mobil kripto para yönetimi
 - **Web**: https://trustwallet.com
 
-### 8. Ledger Live
-- **Platform**: Windows, macOS, iOS, Android
-- **Fiyat**: Ücretsiz (hardware wallet gerekir)
-- **Özellikers**:
-  - Hardware wallet app
-  - Multi-chain support
-  - Staking
-  - Swap
-  - Buy crypto
-  - NFT gallery
-  - Secure
-- **En İyi Kullanım**: Hardware wallet
-- **Web**: https://www.ledger.com/ledger-live
+### 8. Ledger
+- **Platform**: Hardware, Software
+- **Fiyat**: Ücretli ($59-279)
+- **Özellikler**:
+  - Hardware wallet
+  - Cold storage solution
+  - Multi-currency support
+  - Secure chip technology
+  - Backup and recovery
+  - Mobile app integration
+  - Browser extension
+  - Security features
+  - Enterprise solutions
+  - Community support
+- **En İyi Kullanım**: Güvenli kripto para depolama
+- **Web**: https://www.ledger.com
 
-### 9. Trezor Suite
-- **Platform**: Windows, macOS, Linux
-- **Fiyat**: Ücretsiz (hardware wallet gerekir)
-- **Özellikers**:
-  - Hardware wallet app
-  - Multi-chain
-  - Bitcoin, Ethereum, Altcoins
-  - Firmware updates
-  - U2F authentication
-  - Secure
-- **En İyi Kullanım**: Hardware wallet
-- **Web**: https://suite.trezor.io
+### 9. Trezor
+- **Platform**: Hardware, Software
+- **Fiyat**: Ücretli ($59-219)
+- **Özellikler**:
+  - Hardware wallet
+  - Open-source design
+  - Multi-currency support
+  - Cold storage solution
+  - Backup and recovery
+  - Mobile app integration
+  - Browser extension
+  - Security features
+  - Community-driven
+  - Privacy-focused
+- **En İyi Kullanım**: Güvenli ve açık kaynaklı cüzdan
+- **Web**: https://trezor.io
 
 ### 10. Exodus
-- **Platform**: Windows, macOS, Linux, iOS, Android
-- **Fiyat**: Ücretsiz
-- **Özellikers**:
-  - Multi-chain wallet
-  - User-friendly
-  - Built-in exchange
-  - Staking
+- **Platform**: Desktop, Mobile
+- **Fiyat**: Ücretsiz / Ücretli (In-app purchases)
+- **Özellikler**:
+  - Multi-currency wallet
+  - Desktop and mobile
+  - Exchange integration
+  - Staking rewards
+  - NFT support
   - Portfolio tracking
-  - Live support
-  - 100+ cryptocurrencies
-- **En İyi Kullanım**: User-friendly wallet
+  - Backup and recovery
+  - Security features
+  - User-friendly interface
+  - Customer support
+- **En İyi Kullanım**: Kullanıcı dostu kripto para yönetimi
 - **Web**: https://www.exodus.com
-
-## DeFi ve DApps
-
-### 11. Uniswap
-- **Platform**: Web
-- **Fiyat**: Ücretsiz (0.3% swap fee)
-- **Özellikers**:
-  - DEX (Decentralized Exchange)
-  - Ethereum, Polygon, Arbitrum, Optimism
-  - Token swap
-  - Liquidity pools
-  - Liquidity mining
-  - Governance (UNI)
-  - NFT marketplace
-- **En İyi Kullanım**: DEX trading
-- **Web**: https://uniswap.org
-
-### 12. PancakeSwap
-- **Platform**: Web
-- **Fiyat**: Ücretsiz (0.25% swap fee)
-- **Özellikers**:
-  - BSC DEX
-  - Token swap
-  - Liquidity pools
-  - Farming
-  - Staking
-  - NFT marketplace
-  - Lottery
-  - Governance (CAKE)
-- **En İyi Kullanım**: BSC DeFi
-- **Web**: https://pancakeswap.finance
-
-### 13. SushiSwap
-- **Platform**: Web
-- **Fiyat**: Ücretsiz (0.3% swap fee)
-- **Özellikers**:
-  - Multi-chain DEX
-  - Token swap
-  - Liquidity pools
-  - Farming
-  - Staking
-  - Governance (SUSHI)
-  - Cross-chain
-- **En İyi Kullanım**: Multi-chain DEX
-- **Web**: https://sushi.com
-
-### 14. Aave
-- **Platform**: Web
-- **Fiyat**: Ücretsiz (protocol fees)
-- **Özellikers**:
-  - DeFi lending protocol
-  - Supply & borrow
-  - Interest rates
-  - Multi-chain
-  - Governance (AAVE)
-  - Flash loans
-  - Stablecoin markets
-- **En İyi Kullanım**: DeFi lending
-- **Web**: https://aave.com
-
-### 15. Compound
-- **Platform**: Web
-- **Fiyat**: Ücretsiz (interest fees)
-- **Özellikers**:
-  - DeFi lending protocol
-  - Supply & borrow
-  - Interest rates
-  - Ethereum
-  - Governance (COMP)
-  - Liquidation
-  - Audited
-- **En İyi Kullanım**: Ethereum DeFi
-- **Web**: https://compound.finance
 
 ## Blockchain Geliştirme Araçları
 
-### 16. Remix IDE
-- **Platform**: Web
-- **Fiyat**: Ücretsiz
-- **Özellikers**:
-  - Solidity IDE
-  - Online compiler
-  - Debugger
+### 11. Truffle Suite
+- **Platform**: Windows, macOS, Linux
+- **Fiyat**: Ücretsiz / Ücretli (Enterprise)
+- **Özellikler**:
+  - Development framework
+  - Testing framework
+  - Asset pipeline
+  - Network management
+  - Contract deployment
+  - Migration system
+  - Debugging tools
+  - Plugin ecosystem
+  - Enterprise features
+  - Community support
+- **En İyi Kullanım**: Ethereum geliştirme ve test
+- **Web**: https://www.trufflesuite.com
+
+### 12. Hardhat
+- **Platform**: Windows, macOS, Linux
+- **Fiyat**: Ücretsiz ve Açık Kaynak
+- **Özellikler**:
+  - Development environment
+  - Testing framework
+  - Network management
   - Plugin system
-  - Testing
-  - Deployment
-  - Multi-chain support
-  - File management
-- **En İyi Kullanım**: Solidity development
-- **Web**: https://remix.ethereum.org
-
-### 17. Truffle Suite
-- **Platform**: Node.js
-- **Fiyat**: Ücretsiz
-- **Özellikers**:
-  - Ethereum development framework
-  - Smart contract development
-  - Testing
-  - Deployment
-  - Networks
-  - Migrations
-  - Drizzle (React integration)
-- **En İyi Kullanım**: Ethereum smart contract development
-- **Web**: https://trufflesuite.com
-
-### 18. Hardhat
-- **Platform**: Node.js
-- **Fiyat**: Ücretsiz
-- **Özellikers**:
-  - Ethereum development framework
-  - Smart contract development
-  - Testing
-  - Deployment
-  - Local blockchain
-  - Plugins
-  - Integration (TypeChain, etc.)
-- **En İyi Kullanım**: Modern Ethereum development
+  - Debugging tools
+  - TypeScript support
+  - Task runner
+  - Local testing
+  - Community support
+  - Integration tools
+- **En İyi Kullanım**: Gelişmiş Ethereum geliştirme
 - **Web**: https://hardhat.org
 
-### 19. Ganache
-- **Platform**: Windows, macOS, Linux
+### 13. Remix IDE
+- **Platform**: Web
 - **Fiyat**: Ücretsiz
-- **Özellikers**:
-  - Local blockchain
-  - Testing
-  - Quick setup
-  - Accounts
-  - Mining
-  - Fork mainnet
-  - Blockchain explorer
-- **En İyi Kullanım**: Local blockchain testing
-- **Web**: https://trufflesuite.com/ganache
+- **Özellikler**:
+  - Browser-based IDE
+  - Smart contract development
+  - Testing and debugging
+  - Deployment tools
+  - Plugin system
+  - Multi-chain support
+  - Solidity support
+  - Visual debugging
+  - Community support
+  - Integration tools
+- **En İyi Kullanım**: Web tabanlı smart contract geliştirme
+- **Web**: https://remix.ethereum.org
 
-### 20. OpenZeppelin
-- **Platform**: Node.js
-- **Fiyat**: Ücretsiz (open source)
-- **Özellikers**:
-  - Smart contract library
-  - ERC-20, ERC-721, etc.
-  - Audited contracts
-  - Security best practices
-  - Upgradable contracts
-  - Access control
-  - Cross-chain
-- **En İyi Kullanım**: Secure smart contracts
-- **Web**: https://openzeppelin.com
+### 14. Web3.js
+- **Platform**: Web
+- **Fiyat**: Ücretsiz ve Açık Kaynak
+- **Özellikler**:
+  - JavaScript library
+  - Ethereum interaction
+  - Contract interaction
+  - Transaction handling
+  - Event listening
+  - Web3 integration
+  - Browser and Node.js support
+  - Community support
+  - Documentation
+  - Integration tools
+- **En İyi Kullanım**: JavaScript ile Ethereum etkileşimi
+- **Web**: https://web3js.org
+
+### 15. Ethers.js
+- **Platform**: Web
+- **Fiyat**: Ücretsiz ve Açık Kaynak
+- **Özellikler**:
+  - JavaScript library
+  - Ethereum interaction
+  - Contract interaction
+  - Transaction handling
+  - Event listening
+  - TypeScript support
+  - Browser and Node.js support
+  - Community support
+  - Documentation
+  - Integration tools
+- **En İyi Kullanım**: Modern JavaScript Ethereum kütüphanesi
+- **Web**: https://docs.ethers.org
+
+## DeFi (Merkeziyetsiz Finans) Platformları
+
+### 16. Uniswap
+- **Platform**: Web, Mobile
+- **Fiyat**: Ücretsiz
+- **Özellikler**:
+  - Decentralized exchange
+  - Automated market maker
+  - Liquidity provision
+  - Token swapping
+  - Governance
+  - NFT marketplace
+  - Mobile app
+  - API integration
+  - Community-driven
+  - Security features
+- **En İyi Kullanım**: Merkeziyetsiz token takası
+- **Web**: https://uniswap.org
+
+### 17. Aave
+- **Platform**: Web, Mobile
+- **Fiyat**: Ücretsiz
+- **Özellikler**:
+  - Decentralized lending
+  - Interest rates
+  - Collateral management
+  - Flash loans
+  - Governance
+  - AAVE token
+  - Mobile app
+  - API integration
+  - Security features
+  - Community-driven
+- **En İyi Kullanım**: Merkeziyetsiz borç verme ve alma
+- **Web**: https://aave.com
+
+### 18. Compound
+- **Platform**: Web
+- **Fiyat**: Ücretsiz
+- **Özellikler**:
+  - Decentralized lending
+  - Interest rate protocols
+  - Collateral management
+  - Governance
+  - COMP token
+  - API integration
+  - Security features
+  - Community-driven
+  - Transparent lending
+  - Algorithmic rates
+- **En İyi Kullanım**: Algoritma tabanlı merkeziyetsiz finans
+- **Web**: https://compound.finance
+
+### 19. MakerDAO
+- **Platform**: Web
+- **Fiyat**: Ücretsiz
+- **Özellikler**:
+  - Decentralized stablecoin
+  - DAI stablecoin
+  - Collateral management
+  - Governance
+  - MKR token
+  - API integration
+  - Security features
+  - Community-driven
+  - Algorithmic stability
+  - Risk management
+- **En İyi Kullanım**: Merkeziyetsiz stablecoin yönetimi
+- **Web**: https://makerdao.com
+
+### 20. Curve Finance
+- **Platform**: Web, Mobile
+- **Fiyat**: Ücretsiz
+- **Özellikler**:
+  - Decentralized exchange
+  - Stablecoin trading
+  - Low slippage
+  - Liquidity pools
+  - CRV token
+  - Governance
+  - API integration
+  - Security features
+  - Community-driven
+  - Specialized for stablecoins
+- **En İyi Kullanım**: Stablecoin takası ve likidite
+- **Web**: https://curve.fi
+
+## NFT (Non-Fungible Token) Platformları
+
+### 21. OpenSea
+- **Platform**: Web, Mobile
+- **Fiyat**: Ücretsiz / Ücretli (Gas fees, 2.5% fee)
+- **Özellikler**:
+  - Largest NFT marketplace
+  - Multi-chain support
+  - NFT creation and trading
+  - Collection management
+  - Royalty system
+  - Mobile app
+  - API integration
+  - Community features
+  - Security features
+  - User-friendly interface
+- **En İyi Kullanım**: Kapsamlı NFT alım satım
+- **Web**: https://opensea.io
+
+### 22. Rarible
+- **Platform**: Web, Mobile
+- **Fiyat**: Ücretsiz / Ücretli (Gas fees, 2.5% fee)
+- **Özellikler**:
+  - NFT marketplace
+  - Multi-chain support
+  - NFT creation and trading
+  - Collection management
+  - Royalty system
+  - Mobile app
+  - API integration
+  - Community features
+  - Security features
+  - User-friendly interface
+- **En İyi Kullanım**: Kullanıcı odaklı NFT platformu
+- **Web**: https://rarible.com
+
+### 23. Foundation
+- **Platform**: Web
+- **Fiyat**: Ücretsiz / Ücretli (Gas fees, Creator fees)
+- **Özellikler**:
+  - Curated NFT marketplace
+  - Art-focused platform
+  - NFT creation and trading
+  - Collection management
+  - Royalty system
+  - API integration
+  - Community features
+  - Security features
+  - Quality-focused
+  - Artist-friendly
+- **En İyi Kullanım**: Sanat odaklı NFT platformu
+- **Web**: https://foundation.app
+
+### 24. SuperRare
+- **Platform**: Web
+- **Fiyat**: Ücretsiz / Ücretli (Gas fees, Creator fees)
+- **Özellikler**:
+  - Digital art marketplace
+  - Curated platform
+  - NFT creation and trading
+  - Collection management
+  - Royalty system
+  - API integration
+  - Community features
+  - Security features
+  - Quality-focused
+  - Artist-focused
+- **En İyi Kullanım**: Yüksek kaliteli dijital sanat NFT'leri
+- **Web**: https://superrare.com
+
+### 25. NBA Top Shot
+- **Platform**: Web, Mobile
+- **Fiyat**: Ücretsiz / Ücretli (Marketplace fees)
+- **Özellikler**:
+  - Sports NFT platform
+  - NBA highlights
+  - NFT creation and trading
+  - Collection management
+  - Royalty system
+  - Mobile app
+  - API integration
+  - Community features
+  - Security features
+  - Sports-focused
+- **En İyi Kullanım**: Spor NFT'leri ve koleksiyonları
+- **Web**: https://www.nbatopshot.com
 
 ---
 

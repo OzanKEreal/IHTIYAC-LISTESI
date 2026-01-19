@@ -5,307 +5,329 @@
 
 ### 1. Unity
 - **Platform**: Windows, macOS, Linux
-- **Fiyat**: Ücretsiz (Personal) / Ücretli (Pro - $185/month)
-- **Özellikers**:
-  - Cross-platform game engine
-  - 2D ve 3D
-  - C# scripting
-  - Visual Scripting
-  - Physics
-  - Real-time rendering
-  - Asset Store
+- **Fiyat**: Ücretsiz / Ücretli ($20-125/ay)
+- **Özellikler**:
+  - 2D ve 3D development
+  - Visual scripting
+  - Asset store
+  - Multi-platform deployment
+  - Physics engine
+  - Animation system
+  - Networking
   - VR/AR support
-  - Unity Services (Analytics, Ads, etc.)
-- **En İyi Kullanım**: Cross-platform game development
+  - C# programlama
+  - Large community
+- **En İyi Kullanım**: Profesyonel oyun geliştirme, indie geliştiriciler
 - **Web**: https://unity.com
 
 ### 2. Unreal Engine
 - **Platform**: Windows, macOS, Linux
-- **Fiyat**: Ücretsiz (royalty-free $1M'a kadar)
-- **Özellikers**:
-  - AAA game engine
-  - C++ ve Blueprint visual scripting
-  - Real-time rendering
-  - Nanite (geometric detail)
-  - Lumen (global illumination)
-  - MetaHuman (character creation)
+- **Fiyat**: Ücretsiz / Royalty-based (5% after $1M)
+- **Özellikler**:
+  - AAA quality graphics
+  - Blueprint visual scripting
+  - C++ development
+  - Niagara particle system
+  - Cinematics
+  - Multiplayer
   - VR/AR support
-  - Virtual production
-  - Marketplace
-- **En İyi Kullanım**: AAA game development
-- **Web**: https://www.unrealengine.com
+  - Animation tools
+  - Global illumination
+  - Ray tracing
+- **En İyi Kullanım**: Yüksek kaliteli 3D oyunlar, AAA geliştirme
+- **Web**: https://unrealengine.com
 
-### 3. Godot
+### 3. Godot Engine
 - **Platform**: Windows, macOS, Linux
 - **Fiyat**: Ücretsiz ve Açık Kaynak
-- **Özellikers**:
-  - Open source
+- **Özellikler**:
+  - 2D ve 3D development
+  - GDScript (Python-like)
+  - Visual scripting
+  - Node-based architecture
+  - Multi-platform deployment
   - Lightweight
-  - GDScript, C#, C++
-  - 2D ve 3D
-  - Visual Scripting (beta)
-  - Physics
-  - Cross-platform export
-  - Community-driven
-  - Node-based scene system
-- **En İyi Kullanım**: Open-source game development
+  - Active community
+  - Custom engine modifications
+  - Shader editor
+  - Animation system
+- **En İyi Kullanım**: Indie geliştiriciler, 2D oyunlar, açık kaynak severler
 - **Web**: https://godotengine.org
 
 ### 4. GameMaker Studio
-- **Platform**: Windows, macOS
-- **Fiyat**: Ücretsiz (Free) / Ücretli (Subscription - $4.99-49.99/month)
-- **Özellikers**:
-  - 2D game engine
+- **Platform**: Windows, macOS, Linux
+- **Fiyat**: Ücretsiz / Ücretli ($39-499/ay)
+- **Özellikler**:
+  - 2D focused
+  - Drag-and-drop interface
   - GML (GameMaker Language)
-  - Drag-and-drop
-  - Export to multiple platforms
-  - Physics
-  - Particle systems
-  - Sprite editor
-  - Room editor
-- **En İyi Kullanım**: 2D game development
+  - Multi-platform deployment
+  - Asset management
+  - Physics engine
+  - Animation system
+  - Marketplace
+  - Tutorial system
+- **En İyi Kullanım**: 2D oyun geliştirme, başlangıç seviyesi geliştiriciler
 - **Web**: https://gamemaker.io
 
-### 5. Defold
+### 5. CryEngine
+- **Platform**: Windows, macOS, Linux
+- **Fiyat**: Ücretsiz / Ücretli ($9.90-9,900/ay)
+- **Özellikler**:
+  - High-end graphics
+  - C++ development
+  - Visual scripting
+  - Multi-platform deployment
+  - Voxel-based terrain
+  - Animation system
+  - AI system
+  - Multiplayer support
+  - VR/AR support
+- **En İyi Kullanım**: Yüksek kaliteli 3D oyunlar, görsel odaklı projeler
+- **Web**: https://www.cryengine.com
+
+## 2D Geliştirme Araçları
+
+### 6. Construct 3
+- **Platform**: Web
+- **Fiyat**: Ücretsiz / Ücretli ($12-99/ay)
+- **Özellikler**:
+  - Browser-based
+  - Drag-and-drop interface
+  - JavaScript export
+  - Multi-platform deployment
+  - Visual scripting
+  - Animation editor
+  - Event system
+  - Asset library
+  - WebGL export
+- **En İyi Kullanım**: Web tabanlı 2D oyunlar, başlangıç seviyesi
+- **Web**: https://www.construct.net
+
+### 7. RPG Maker
+- **Platform**: Windows, macOS
+- **Fiyat**: Ücretli ($10-89)
+- **Özellikler**:
+  - RPG focused
+  - Event system
+  - Database management
+  - Multi-platform deployment
+  - Asset library
+  - Scripting support
+  - Plugin system
+  - Multiple versions (MV, MZ, etc.)
+- **En İyi Kullanım**: RPG oyunları, başlangıç seviyesi geliştiriciler
+- **Web**: https://www.rpgmakerweb.com
+
+### 8. Stencyl
+- **Platform**: Windows, macOS, Linux
+- **Fiyat**: Ücretsiz / Ücretli ($99-199)
+- **Özellikler**:
+  - 2D game development
+  - Block-based programming
+  - Visual scripting
+  - Multi-platform deployment
+  - Asset library
+  - Behavior designer
+  - Code view
+  - Community marketplace
+- **En İyi Kullanım**: Eğitim ve başlangıç seviyesi 2D oyunlar
+- **Web**: https://www.stencyl.com
+
+## 3D Modelleme ve Animasyon
+
+### 9. Blender
+- **Platform**: Windows, macOS, Linux
+- **Fiyat**: Ücretsiz ve Açık Kaynak
+- **Özellikler**:
+  - 3D modeling
+  - Sculpting
+  - Animation
+  - Rendering
+  - VFX
+  - Grease Pencil
+  - Python scripting
+  - Video editing
+  - Compositing
+  - Game asset creation
+- **En İyi Kullanım**: Ücretsiz 3D tasarım ve oyun geliştirme
+- **Web**: https://www.blender.org
+
+### 10. Maya
+- **Platform**: Windows, macOS
+- **Fiyat**: Ücretli ($26-325/ay)
+- **Özellikler**:
+  - Professional 3D animation
+  - Modeling tools
+  - Rigging and skinning
+  - Animation system
+  - Rendering
+  - Dynamics
+  - Fluid simulation
+  - Hair and fur
+  - Arnold renderer
+  - Python scripting
+- **En İyi Kullanım**: Profesyonel 3D animasyon ve film yapımı
+- **Web**: https://www.autodesk.com/products/maya
+
+### 11. 3ds Max
+- **Platform**: Windows
+- **Fiyat**: Ücretli ($26-325/ay)
+- **Özellikler**:
+  - 3D modeling and animation
+  - Architecture visualization
+  - Game asset creation
+  - Character animation
+  - Rendering
+  - Simulation
+  - Scripting
+  - Plugin ecosystem
+  - BIM support
+- **En İyi Kullanım**: Mimarlık ve oyun geliştirme
+- **Web**: https://www.autodesk.com/products/3ds-max
+
+### 12. Cinema 4D
+- **Platform**: Windows, macOS
+- **Fiyat**: Ücretli ($21-94/ay)
+- **Özellikler**:
+  - 3D modeling
+  - Animation
+  - Rendering
+  - MoGraph motion graphics
+  - Character animation
+  - Hair and fur
+  - PyroCluster
+  - Advanced renderer
+  - Integration with Adobe
+- **En İyi Kullanım**: Motion graphics ve 3D tasarım
+- **Web**: https://www.maxon.net/cinema-4d
+
+## Oyun Test ve Kalite Güvence
+
+### 13. Unity Test Framework
 - **Platform**: Windows, macOS, Linux
 - **Fiyat**: Ücretsiz
-- **Özellikers**:
-  - 2D game engine
-  - Lua scripting
-  - Free to use
-  - Cross-platform export
-  - Physics
-  - Particle systems
-  - Editor
-  - Asset pipeline
-- **En İyi Kullanım**: 2D game development
-- **Web**: https://defold.com
+- **Özellikler**:
+  - Unit testing
+  - Integration testing
+  - Play mode testing
+  - Edit mode testing
+  - Automated testing
+  - Test runner
+  - Mocking framework
+  - CI/CD integration
+- **En İyi Kullanım**: Unity oyunları için test otomasyonu
+- **Web**: https://docs.unity3d.com/Packages/com.unity.test-framework
 
-## Mobil Game Development
+### 14. Unity Profiler
+- **Platform**: Windows, macOS, Linux
+- **Fiyat**: Ücretsiz
+- **Özellikler**:
+  - Performance analysis
+  - Memory profiling
+  - CPU usage tracking
+  - GPU profiling
+  - Network profiling
+  - Physics profiling
+  - Audio profiling
+  - Custom profilers
+- **En İyi Kullanım**: Unity oyun performans analizi
+- **Web**: https://docs.unity3d.com/Manual/Profiler.html
 
-### 6. Corona SDK (Solar2D)
-- **Platform**: Windows, macOS
-- **Fiyat**: Ücretsiz ve Açık Kaynak
-- **Özellikers**:
-  - 2D game engine
-  - Lua scripting
-  - Cross-platform (iOS, Android, etc.)
-  - Physics (Box2D)
-  - UI widgets
-  - Graphics effects
-  - Plugins
-  - Solar2D community
-- **En İyi Kullanım**: 2D mobile games
-- **Web**: https://coronalabs.com
-
-### 7. Cocos2d-x
+### 15. RenderDoc
 - **Platform**: Windows, macOS, Linux
 - **Fiyat**: Ücretsiz ve Açık Kaynak
-- **Özellikers**:
-  - Open source
-  - 2D game engine
-  - C++, Lua, JavaScript
-  - Cross-platform
-  - Physics (Chipmunk, Box2D)
-  - Particle system
-  - GUI widgets
-  - Editor (Cocos Creator)
-- **En İyi Kullanım**: 2D cross-platform games
-- **Web**: https://www.cocos2d-x.org
+- **Özellikler**:
+  - Graphics debugging
+  - Frame analysis
+  - Texture inspection
+  - Shader debugging
+  - API capture
+  - Multi-platform support
+  - Integration with engines
+  - Advanced debugging tools
+- **En İyi Kullanım**: Grafik hata ayıklama ve analiz
+- **Web**: https://renderdoc.org
 
-### 8. LÖVE (Love2D)
+### 16. PIX (Windows)
+- **Platform**: Windows
+- **Fiyat**: Ücretsiz
+- **Özellikler**:
+  - DirectX debugging
+  - GPU analysis
+  - Frame profiling
+  - Resource tracking
+  - Shader debugging
+  - API tracing
+  - Performance analysis
+  - Memory analysis
+- **En İyi Kullanım**: DirectX tabanlı oyunlar için grafik analizi
+- **Web**: https://devblogs.microsoft.com/pix
+
+## Oyun Dağıtım ve Yönetim
+
+### 17. Steamworks SDK
 - **Platform**: Windows, macOS, Linux
-- **Fiyat**: Ücretsiz ve Açık Kaynak
-- **Özellikers**:
-  - 2D game framework
-  - Lua scripting
-  - Cross-platform
-  - Physics (Box2D)
-  - Sound and music
-  - Graphics (OpenGL)
-  - Community
-  - Simple API
-- **En İyi Kullanım**: 2D indie games
-- **Web**: https://love2d.org
+- **Fiyat**: Ücretsiz
+- **Özellikler**:
+  - Steam integration
+  - Achievements
+  - Leaderboards
+  - Cloud saves
+  - Workshop
+  - DRM
+  - Statistics
+  - Multiplayer
+  - Store integration
+- **En İyi Kullanım**: Steam platformu için oyun dağıtımı
+- **Web**: https://partner.steamgames.com
 
-### 9. Phaser
-- **Platform**: Web (JavaScript)
-- **Fiyat**: Ücretsiz ve Açık Kaynak
-- **Özellikers**:
-  - Open source
-  - 2D web games
-  - JavaScript framework
-  - Canvas renderer
-  - Physics
-  - Particle systems
-  - Animations
-  - Mobile optimization
-- **En İyi Kullanım**: HTML5 2D games
-- **Web**: https://phaser.io
+### 18. Itch.io
+- **Platform**: Web
+- **Fiyat**: Ücretsiz / Ücretli (Pro - $9/ay)
+- **Özellikler**:
+  - Indie game distribution
+  - Direct publishing
+  - Community features
+  - Revenue sharing
+  - Game jams
+  - Developer tools
+  - Analytics
+  - Integration tools
+- **En İyi Kullanım**: Indie oyun geliştiricileri için dağıtım
+- **Web**: https://itch.io
 
-### 10. GDevelop
-- **Platform**: Web, Windows, macOS, Linux
-- **Fiyat**: Ücretsiz (Open source)
-- **Özellikers**:
-  - Open source
-  - 2D/3D game maker
-  - No-code (events)
-  - Export to multiple platforms
-  - Physics
-  - Particles
-  - UI widgets
-  - Community
-- **En İyi Kullanım**: No-code game development
-- **Web**: https://gdevelop.io
+### 19. Google Play Console
+- **Platform**: Web
+- **Fiyat**: Ücretsiz / Ücretli ($25一次性)
+- **Özellikler**:
+  - Android app distribution
+  - Publishing tools
+  - Analytics
+  - Monetization
+  - A/B testing
+  - Crash reporting
+  - Performance monitoring
+  - User feedback
+  - App signing
+- **En İyi Kullanım**: Android oyun ve uygulamaları dağıtımı
+- **Web**: https://play.google.com/console
 
-## Graphics ve Rendering
-
-### 11. OpenGL
-- **Platform**: Cross-platform
-- **Fiyat**: Ücretsiz ve Açık Kaynak
-- **Özellikers**:
-  - 2D/3D graphics API
-  - Cross-platform
-  - Hardware acceleration
-  - Shaders
-  - Vertex and fragment
-  - Extensions
-  - Documentation
-  - Community
-- **En İyi Kullanım**: Graphics programming
-- **Web**: https://www.opengl.org
-
-### 12. Vulkan
-- **Platform**: Cross-platform
-- **Fiyat**: Ücretsiz ve Açık Kaynak
-- **Özellikers**:
-  - Low-level graphics API
-  - High performance
-  - Cross-platform
-  - Modern graphics
-  - Multi-threading
-  - Compute shaders
-  - Ray tracing
-  - Documentation
-- **En İyi Kullanım**: Modern graphics programming
-- **Web**: https://www.vulkan.org
-
-### 13. DirectX
-- **Platform**: Windows, Xbox
-- **Fiyat**: Ücretsiz (Windows SDK)
-- **Özellikers**:
-  - Microsoft graphics API
-  - DirectX 12
-  - Ray tracing
-  - Multi-threading
-  - Compute shaders
-  - Windows optimization
-  - Documentation
-  - Tools
-- **En İyi Kullanım**: Windows graphics programming
-- **Web**: https://docs.microsoft.com/windows/win32/directx
-
-### 14. WebGPU
-- **Platform**: Web (Chrome, Firefox, Safari)
-- **Fiyat**: Ücretsiz ve Açık Kaynak
-- **Özellikers**:
-  - Next-gen web graphics API
-  - Low-level
-  - Cross-browser
-  - Compute shaders
-  - JavaScript/WebAssembly
-  - Modern graphics
-  - Performance
-- **En İyi Kullanım**: Web 3D graphics
-- **Web**: https://www.w3.org/TR/webgpu
-
-### 15. Three.js
-- **Platform**: Web (JavaScript)
-- **Fiyat**: Ücretsiz ve Açık Kaynak
-- **Özellikers**:
-  - 3D web graphics
-  - WebGL wrapper
-  - 3D models
-  - Lighting
-  - Materials
-  - Animations
-  - Post-processing
-  - Community
-- **En İyi Kullanım**: Web 3D graphics
-- **Web**: https://threejs.org
-
-## Audio ve Sound Design
-
-### 16. FMOD
-- **Platform**: Cross-platform
-- **Fiyat**: Ücretsiz (Indie) / Ücretli (Professional)
-- **Özellikers**:
-  - Game audio middleware
-  - Cross-platform
-  - Audio engine
-  - Interactive music
-  - 3D spatial audio
-  - Plugin integration
-  - Audio effects
-  - Integration (Unity, Unreal, etc.)
-- **En İyi Kullanım**: Game audio
-- **Web**: https://www.fmod.com
-
-### 17. Wwise
-- **Platform**: Cross-platform
-- **Fiyat**: Ücretsiz (Indie) / Ücretli (Professional)
-- **Özellikers**:
-  - Game audio middleware
-  - Audio engine
-  - Interactive music
-  - 3D spatial audio
-  - Audio effects
-  - Integration (Unity, Unreal, etc.)
-  - Plugins
-- **En İyi Kullanım**: Game audio
-- **Web**: https://www.audiokinetic.com
-
-### 18. BFXR
-- **Platform**: Web, Windows, macOS, Linux
-- **Fiyat**: Ücretsiz ve Açık Kaynak
-- **Özellikers**:
-  - Retro sound effects generator
-  - Chiptune sounds
-  - Customizable
-  - Multiple sounds
-  - Easy to use
-  - Open source
-  - Community
-- **En İyi Kullanım**: Retro sound effects
-- **Web**: https://www.bfxr.net
-
-### 19. sfxr
-- **Platform**: Cross-platform
-- **Fiyat**: Ücretsiz ve Açık Kaynak
-- **Özellikers**:
-  - Retro sound effects generator
-  - Simple interface
-  - Random generation
-  - Customizable
-  - Export WAV
-  - Open source
-- **En İyi Kullanım**: Quick retro SFX
-- **Web**: https://www.drpetter.se/project-sfxr.html
-
-### 20. Audacity
-- **Platform**: Windows, macOS, Linux
-- **Fiyat**: Ücretsiz ve Açık Kaynak
-- **Özellikers**:
-  - Open source
-  - Audio editing
-  - Multi-track recording
-  - Effects
-  - Noise reduction
-  - VST support
-  - Plugins
-  - Cross-platform
-- **En İyi Kullanım**: Audio editing
-- **Web**: https://www.audacityteam.org
+### 20. Apple App Store Connect
+- **Platform**: Web
+- **Fiyat**: Ücretsiz / Ücretli ($99/yıl)
+- **Özellikler**:
+  - iOS app distribution
+  - Publishing tools
+  - Analytics
+  - Monetization
+  - App review
+  - Beta testing
+  - In-app purchases
+  - Subscriptions
+  - App signing
+- **En İyi Kullanım**: iOS ve macOS oyun dağıtımı
+- **Web**: https://appstoreconnect.apple.com
 
 ---
 

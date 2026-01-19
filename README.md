@@ -19,6 +19,9 @@ Terminal emülatörleri, modern shell'ler ve CLI araçları
 ## [Veritabanı Yönetimi](docs/Veritabanı-Yönetimi.md)
 SQL client'ları, NoSQL araçları ve ORM kütüphaneleri
 
+## [Yapay Zeka ve Otomasyon](docs/Yapay-Zeka-Otomasyon.md)
+AI content creation, code generation, automation tools ve chatbot platformları
+
 ---
 
 # 🎨 TASARIM VE MÜLTI MEDYA
@@ -74,6 +77,9 @@ Screen recording, screenshot ve capture araçları
 
 # 🔒 GÜVENLİK VE VERİ KORUMA
 
+## [Siber Güvenlik](docs/Siber-Güvenlik.md)
+Antivirüs, VPN, password manager'lar ve güvenlik eğitimi
+
 ## [Antivirüs ve Güvenlik Yazılımları](docs/Antivirüs-Güvenlik.md)
 Antivirüs, VPN ve password manager'lar
 
@@ -108,6 +114,9 @@ Desktop virtualization, containerization ve remote desktop
 
 ## [Dosya Sıkıştırma ve Arşivleme](docs/Dosya-Sıkıştırma.md)
 ZIP, RAR, 7Z ve diğer arşiv formatları
+
+## [Bulut Bilişim ve DevOps](docs/Bulut-Bilisim-DevOps.md)
+Cloud services, containerization, CI/CD ve monitoring tools
 
 ---
 
@@ -162,5 +171,5 @@ Kripto borsaları, wallet'lar ve blockchain development
 ---
 
 **Son Güncelleme**: 2026
-**Toplam Kategori**: 30+
-**Toplam Program Önerisi**: 600+
+**Toplam Kategori**: 40+
+**Toplam Program Önerisi**: 1000+
