@@ -1,0 +1,77 @@
+site_name: Teknoloji Rehberleri
+site_description: Yazılım, teknoloji ve dijital araçlar hakkında kapsamlı Türkçe rehberler
+site_author: Teknoloji Rehberleri Ekibi
+theme:
+  name: material
+  language: tr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Koyu mod
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Açık mod
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+nav:
+  - Ana Sayfa: index.md
+  - Geliştirme:
+    - API Test & Web Geliştirme: docs/API-Test-Web-Geliştirme.md
+    - Blockchain & Kripto: docs/Blockchain-Kripto.md
+    - Bulut Bilişim & DevOps: docs/Bulut-Bilisim-DevOps.md
+    - E-Ticaret & CMS: docs/E-Ticaret-CMS.md
+    - Kod Editör: docs/Kodeditör.md
+    - Mobil Uygulama Geliştirme: docs/Mobil-Uygulama-Geliştirme.md
+    - Oyun Geliştirme: docs/Oyun-Geliştirme.md
+    - Proje Yönetimi: docs/Proje-Yönetimi.md
+    - Veri Bilimi & ML: docs/Veri-Bilimi-ML.md
+    - Veritabanı Yönetimi: docs/Veritabanı-Yönetimi.md
+    - Yapay Zeka & Otomasyon: docs/Yapay-Zeka-Otomasyon.md
+  - Sistem & Araçlar:
+    - Ağ Analizi: docs/Ağ-Analizi.md
+    - Antivirüs & Güvenlik: docs/Antivirüs-Güvenlik.md
+    - Bulut Depolama: docs/Bulut-Depolama.md
+    - Disk Analizi & Temizlik: docs/Disk-Analizi-Temizlik.md
+    - Dosya Kurtarma: docs/Dosya-Kurtarma.md
+    - Dosya Sıkıştırma: docs/Dosya-Sıkıştırma.md
+    - Dosya Transferi: docs/Dosya-Transferi.md
+    - PDF Araçları: docs/PDF-Araçları.md
+    - Sanal Makine: docs/Sanal-Makine.md
+    - Sistem Optimize: docs/Sistem-Optimize.md
+    - Sistem İzleme: docs/Sistem-İzleme.md
+    - Terminal Tools: docs/Terminal-Tools.md
+  - Tasarım & Medya:
+    - 3D Modelleme: docs/3D-Modelleme.md
+    - CAD Mühendislik: docs/CAD-Mühendislik.md
+    - Ekran Kaydı: docs/Ekran-Kayıtı.md
+    - Fotoğraf Düzenleme: docs/Fotoğraf-Düzenleme.md
+    - Grafik Tasarım: docs/Grafik-Tasarım.md
+    - Ses Editörleri: docs/Ses-Editörleri.md
+    - Video Editörleri: docs/Video-Editörleri.md
+  - Ofis & Üretkenlik:
+    - Dijital Pazarlama & Sosyal Medya: docs/Dijital-Pazarlama-Sosyal-Medya.md
+    - E-posta & İletişim: docs/E-posta-İletişim.md
+    - Eğitim & Öğrenme: docs/Eğitim-Öğrenme.md
+    - Markdown Editörleri: docs/Markdown-Editörleri.md
+    - Mesajlaşma: docs/Mesajlaşma.md
+    - Not Alma: docs/Not-Alma.md
+    - Ofis Programları: docs/Ofis-Programları.md
+    - Sosyal Medya Yönetimi: docs/Sosyal-Medya-Yönetimi.md
+  - Tarayıcılar:
+    - Tarayıcılar: docs/Tarayıcılar.md
