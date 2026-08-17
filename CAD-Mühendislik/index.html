@@ -1,0 +1,2502 @@
+
+<!doctype html>
+<html lang="tr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Yazılım, teknoloji ve dijital araçlar hakkında kapsamlı Türkçe rehberler">
+      
+      
+        <meta name="author" content="Teknoloji Rehberleri Ekibi">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>CAD Mühendislik - Teknoloji Rehberleri</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cad-ve-muhendislik" class="md-skip">
+          Ana içeriğe geç
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Başlık">
+    <a href=".." title="Teknoloji Rehberleri" class="md-header__button md-logo" aria-label="Teknoloji Rehberleri" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Teknoloji Rehberleri
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CAD Mühendislik
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Koyu mod"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Koyu mod" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Açık mod"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Açık mod" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Ara" placeholder="Ara" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Ara">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Temizle" aria-label="Temizle" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Arama başlatılıyor
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Sekmeler" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Ana Sayfa
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../docs/API-Test-Web-Geliştirme.md" class="md-tabs__link">
+          
+  
+  
+  Geliştirme
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../docs/Ağ-Analizi.md" class="md-tabs__link">
+          
+  
+  
+  Sistem & Araçlar
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../docs/3D-Modelleme.md" class="md-tabs__link">
+          
+  
+  
+  Tasarım & Medya
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../docs/Dijital-Pazarlama-Sosyal-Medya.md" class="md-tabs__link">
+          
+  
+  
+  Ofis & Üretkenlik
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../docs/Tarayıcılar.md" class="md-tabs__link">
+          
+  
+  
+  Tarayıcılar
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigasyon" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Teknoloji Rehberleri" class="md-nav__button md-logo" aria-label="Teknoloji Rehberleri" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Teknoloji Rehberleri
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ana Sayfa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geliştirme
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Geliştirme
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/API-Test-Web-Geliştirme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Test & Web Geliştirme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Blockchain-Kripto.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blockchain & Kripto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Bulut-Bilisim-DevOps.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bulut Bilişim & DevOps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/E-Ticaret-CMS.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    E-Ticaret & CMS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Kodeditör.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kod Editör
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Mobil-Uygulama-Geliştirme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mobil Uygulama Geliştirme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Oyun-Geliştirme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oyun Geliştirme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Proje-Yönetimi.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proje Yönetimi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Veri-Bilimi-ML.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Veri Bilimi & ML
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Veritabanı-Yönetimi.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Veritabanı Yönetimi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Yapay-Zeka-Otomasyon.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Yapay Zeka & Otomasyon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistem & Araçlar
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sistem & Araçlar
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Ağ-Analizi.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ağ Analizi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Antivirüs-Güvenlik.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antivirüs & Güvenlik
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Bulut-Depolama.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bulut Depolama
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Disk-Analizi-Temizlik.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Disk Analizi & Temizlik
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Dosya-Kurtarma.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dosya Kurtarma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Dosya-Sıkıştırma.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dosya Sıkıştırma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Dosya-Transferi.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dosya Transferi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/PDF-Araçları.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PDF Araçları
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Sanal-Makine.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sanal Makine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Sistem-Optimize.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistem Optimize
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Sistem-İzleme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistem İzleme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Terminal-Tools.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Terminal Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tasarım & Medya
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tasarım & Medya
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/3D-Modelleme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3D Modelleme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/CAD-Mühendislik.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CAD Mühendislik
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Ekran-Kayıtı.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ekran Kaydı
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Fotoğraf-Düzenleme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fotoğraf Düzenleme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Grafik-Tasarım.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grafik Tasarım
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Ses-Editörleri.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ses Editörleri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Video-Editörleri.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Video Editörleri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ofis & Üretkenlik
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ofis & Üretkenlik
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Dijital-Pazarlama-Sosyal-Medya.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dijital Pazarlama & Sosyal Medya
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/E-posta-İletişim.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    E-posta & İletişim
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Eğitim-Öğrenme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Eğitim & Öğrenme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Markdown-Editörleri.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Markdown Editörleri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Mesajlaşma.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mesajlaşma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Not-Alma.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Not Alma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Ofis-Programları.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ofis Programları
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Sosyal-Medya-Yönetimi.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sosyal Medya Yönetimi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tarayıcılar
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tarayıcılar
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Tarayıcılar.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tarayıcılar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="İçindekiler">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      İçindekiler
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cad-ve-muhendislik" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CAD VE MÜHENDİSLİK
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#profesyonel-cad-yazlmlar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Profesyonel CAD Yazılımları
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Profesyonel CAD Yazılımları">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-autocad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. AutoCAD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-solidworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. SolidWorks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-autodesk-fusion-360" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Autodesk Fusion 360
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-catia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. CATIA
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-siemens-nx" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Siemens NX
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#free-ve-open-source-cad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Free ve Open Source CAD
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Free ve Open Source CAD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6-freecad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. FreeCAD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-librecad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. LibreCAD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-brl-cad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. BRL-CAD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-openscad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. OpenSCAD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-qcad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. QCAD
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#civil-ve-architectural-cad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Civil ve Architectural CAD
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Civil ve Architectural CAD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-autodesk-revit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Autodesk Revit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-sketchup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. SketchUp
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-archicad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. ArchiCAD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-autocad-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. AutoCAD Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-autocad-civil-3d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. AutoCAD Civil 3D
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simulation-ve-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simulation ve Analysis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Simulation ve Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#16-ansys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16. ANSYS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-abaqus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17. Abaqus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-comsol-multiphysics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18. COMSOL Multiphysics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19-simscale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        19. SimScale
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20-solidworks-simulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20. SOLIDWORKS Simulation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>CAD Mühendislik</h1>
+
+<h3 id="cad-ve-muhendislik">CAD VE MÜHENDİSLİK<a class="headerlink" href="#cad-ve-muhendislik" title="Permanent link">&para;</a></h3>
+<hr />
+<h2 id="profesyonel-cad-yazlmlar">Profesyonel CAD Yazılımları<a class="headerlink" href="#profesyonel-cad-yazlmlar" title="Permanent link">&para;</a></h2>
+<h3 id="1-autocad">1. AutoCAD<a class="headerlink" href="#1-autocad" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS</li>
+<li><strong>Fiyat</strong>: Ücretsiz deneme / Ücretli ($235/month veya $1,875/year)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Industry standard 2D/3D CAD</li>
+<li>Drawing tools</li>
+<li>Dimensioning</li>
+<li>Layers</li>
+<li>Blocks</li>
+<li>Xrefs</li>
+<li>DWG format</li>
+<li>Collaboration</li>
+<li>Web &amp; mobile</li>
+<li><strong>En İyi Kullanım</strong>: 2D/3D drafting ve tasarım</li>
+<li><strong>Web</strong>: https://www.autodesk.com/products/autocad</li>
+</ul>
+<h3 id="2-solidworks">2. SolidWorks<a class="headerlink" href="#2-solidworks" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows</li>
+<li><strong>Fiyat</strong>: Ücretsiz deneme / Ücretli ($3,995-7,995/year)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>3D parametrik modeling</li>
+<li>Assembly modeling</li>
+<li>Simulation</li>
+<li>Sheet metal</li>
+<li>Surfacing</li>
+<li>Drawing tools</li>
+<li>PDM (Product Data Management)</li>
+<li>Electrical (Schematics)</li>
+<li><strong>En İyi Kullanım</strong>: Mechanical design</li>
+<li><strong>Web</strong>: https://www.solidworks.com</li>
+</ul>
+<h3 id="3-autodesk-fusion-360">3. Autodesk Fusion 360<a class="headerlink" href="#3-autodesk-fusion-360" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS</li>
+<li><strong>Fiyat</strong>: Ücretsiz (Personal) / Ücretli ($545/year)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Cloud-based</li>
+<li>3D modeling</li>
+<li>CAD, CAM, CAE</li>
+<li>Generative design</li>
+<li>Simulation</li>
+<li>Rendering</li>
+<li>Collaboration</li>
+<li>Manufacture</li>
+<li><strong>En İyi Kullanım</strong>: Integrated design-to-manufacturing</li>
+<li><strong>Web</strong>: https://www.autodesk.com/products/fusion-360</li>
+</ul>
+<h3 id="4-catia">4. CATIA<a class="headerlink" href="#4-catia" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, Linux</li>
+<li><strong>Fiyat</strong>: Ücretli (licensing model)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>High-end 3D CAD</li>
+<li>Surface modeling</li>
+<li>Assembly design</li>
+<li>Simulation</li>
+<li>Generative design</li>
+<li>Systems engineering</li>
+<li>PLM (Product Lifecycle Management)</li>
+<li>Automotive &amp; aerospace odaklı</li>
+<li><strong>En İyi Kullanım</strong>: Complex product design</li>
+<li><strong>Web</strong>: https://www.3ds.com/products-services/catia</li>
+</ul>
+<h3 id="5-siemens-nx">5. Siemens NX<a class="headerlink" href="#5-siemens-nx" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, Linux</li>
+<li><strong>Fiyat</strong>: Ücretli (licensing model)</li>
+<li><strong>Özellikers</strong>:</li>
+<li>Advanced 3D CAD</li>
+<li>Parametric modeling</li>
+<li>Simulation</li>
+<li>Manufacturing (CAM)</li>
+<li>Design automation</li>
+<li>Product data management</li>
+<li>CAE &amp; PLM integration</li>
+<li>Automotive &amp; aerospace</li>
+<li><strong>En İyi Kullanım</strong>: Endüstriyel tasarım</li>
+<li><strong>Web</strong>: https://www.plm.automation.siemens.com/global/en/products/nx</li>
+</ul>
+<h2 id="free-ve-open-source-cad">Free ve Open Source CAD<a class="headerlink" href="#free-ve-open-source-cad" title="Permanent link">&para;</a></h2>
+<h3 id="6-freecad">6. FreeCAD<a class="headerlink" href="#6-freecad" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz ve Açık Kaynak</li>
+<li><strong>Özellikers</strong>:</li>
+<li>Open source</li>
+<li>Parametric 3D CAD</li>
+<li>Modular architecture</li>
+<li>Multiple workbenches</li>
+<li>Assembly workbench</li>
+<li>Finite Element Analysis (FEM)</li>
+<li>Rendering</li>
+<li>Python scripting</li>
+<li><strong>En İyi Kullanım</strong>: Free parametric CAD</li>
+<li><strong>Web</strong>: https://www.freecadweb.org</li>
+</ul>
+<h3 id="7-librecad">7. LibreCAD<a class="headerlink" href="#7-librecad" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz ve Açık Kaynak</li>
+<li><strong>Özellikers</strong>:</li>
+<li>Open source</li>
+<li>2D CAD</li>
+<li>DXF format</li>
+<li>Layers</li>
+<li>Blocks</li>
+<li>Dimensioning</li>
+<li>Cross-platform</li>
+<li><strong>En İyi Kullanım</strong>: Free 2D CAD</li>
+<li><strong>Web</strong>: https://librecad.org</li>
+</ul>
+<h3 id="8-brl-cad">8. BRL-CAD<a class="headerlink" href="#8-brl-cad" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz ve Açık Kaynak</li>
+<li><strong>Özellikers</strong>:</li>
+<li>Open source</li>
+<li>3D solid modeling</li>
+<li>Constructive Solid Geometry (CSG)</li>
+<li>Ray tracing rendering</li>
+<li>Cross-platform</li>
+<li>Scripting</li>
+<li>Geometry editing</li>
+<li><strong>En İyi Kullanım</strong>: Free solid modeling</li>
+<li><strong>Web</strong>: https://brlcad.org</li>
+</ul>
+<h3 id="9-openscad">9. OpenSCAD<a class="headerlink" href="#9-openscad" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz ve Açık Kaynak</li>
+<li><strong>Özellikers</strong>:</li>
+<li>Script-based 3D CAD</li>
+<li>CSG modeling</li>
+<li>Scripting (C-like)</li>
+<li>Parametric design</li>
+<li>Export (STL, DXF, etc.)</li>
+<li>Customizable</li>
+<li>Open source</li>
+<li><strong>En İyi Kullanım</strong>: Script-based 3D modeling</li>
+<li><strong>Web</strong>: https://www.openscad.org</li>
+</ul>
+<h3 id="10-qcad">10. QCAD<a class="headerlink" href="#10-qcad" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz (Community) / Ücretli (Professional - €33)</li>
+<li><strong>Özellikers</strong>:</li>
+<li>2D CAD</li>
+<li>DXF &amp; DWG support</li>
+<li>Blocks</li>
+<li>Layers</li>
+<li>Dimensioning</li>
+<li>CAM (Pro)</li>
+<li>Part library (Pro)</li>
+<li><strong>En İyi Kullanım</strong>: 2D drafting</li>
+<li><strong>Web</strong>: https://www.qcad.org</li>
+</ul>
+<h2 id="civil-ve-architectural-cad">Civil ve Architectural CAD<a class="headerlink" href="#civil-ve-architectural-cad" title="Permanent link">&para;</a></h2>
+<h3 id="11-autodesk-revit">11. Autodesk Revit<a class="headerlink" href="#11-autodesk-revit" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows</li>
+<li><strong>Fiyat</strong>: Ücretli ($335/month veya $2,675/year)</li>
+<li><strong>Özellikers</strong>:</li>
+<li>BIM (Building Information Modeling)</li>
+<li>3D architectural design</li>
+<li>Structural engineering</li>
+<li>MEP (Mechanical, Electrical, Plumbing)</li>
+<li>Rendering</li>
+<li>Coordination</li>
+<li>Cloud collaboration</li>
+<li><strong>En İyi Kullanım</strong>: BIM design</li>
+<li><strong>Web</strong>: https://www.autodesk.com/products/revit</li>
+</ul>
+<h3 id="12-sketchup">12. SketchUp<a class="headerlink" href="#12-sketchup" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS, Web</li>
+<li><strong>Fiyat</strong>: Ücretsiz (Web) / Ücretli ($119-699/year)</li>
+<li><strong>Özellikers</strong>:</li>
+<li>Easy-to-use 3D modeling</li>
+<li>SketchUp Free (Web)</li>
+<li>SketchUp Pro (Desktop)</li>
+<li>Layout (documentation)</li>
+<li>Extension warehouse</li>
+<li>Rendering (Pro)</li>
+<li>3D Warehouse (models)</li>
+<li><strong>En İyi Kullanım</strong>: 3D modeling için basit araç</li>
+<li><strong>Web</strong>: https://www.sketchup.com</li>
+</ul>
+<h3 id="13-archicad">13. ArchiCAD<a class="headerlink" href="#13-archicad" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS</li>
+<li><strong>Fiyat</strong>: Ücretli ($2,400-3,000/year)</li>
+<li><strong>Özellikers</strong>:</li>
+<li>BIM</li>
+<li>Architectural design</li>
+<li>Documentation</li>
+<li>Collaboration</li>
+<li>Rendering</li>
+<li>3D modeling</li>
+<li>Visual programming</li>
+<li>Energy evaluation</li>
+<li><strong>En İyi Kullanım</strong>: Architectural BIM</li>
+<li><strong>Web</strong>: https://www.graphisoft.com/archicad</li>
+</ul>
+<h3 id="14-autocad-architecture">14. AutoCAD Architecture<a class="headerlink" href="#14-autocad-architecture" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows</li>
+<li><strong>Fiyat</strong>: Ücretli ($1,595/year)</li>
+<li><strong>Özellikers</strong>:</li>
+<li>AutoCAD-based</li>
+<li>Architectural tools</li>
+<li>Walls, doors, windows</li>
+<li>Sections</li>
+<li>Schedules</li>
+<li>Documentation</li>
+<li>Layer management</li>
+<li><strong>En İyi Kullanım</strong>: Architectural drafting</li>
+<li><strong>Web</strong>: https://www.autodesk.com/products/autocad-architecture</li>
+</ul>
+<h3 id="15-autocad-civil-3d">15. AutoCAD Civil 3D<a class="headerlink" href="#15-autocad-civil-3d" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows</li>
+<li><strong>Fiyat</strong>: Ücretli ($2,495/year)</li>
+<li><strong>Özellikers</strong>:</li>
+<li>Civil engineering</li>
+<li>Surface modeling</li>
+<li>Pipe networks</li>
+<li>Grading</li>
+<li>Corridors</li>
+<li>Surveying</li>
+<li>BIM</li>
+<li><strong>En İyi Kullanım</strong>: Civil engineering</li>
+<li><strong>Web</strong>: https://www.autodesk.com/products/civil-3d</li>
+</ul>
+<h2 id="simulation-ve-analysis">Simulation ve Analysis<a class="headerlink" href="#simulation-ve-analysis" title="Permanent link">&para;</a></h2>
+<h3 id="16-ansys">16. ANSYS<a class="headerlink" href="#16-ansys" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, Linux</li>
+<li><strong>Fiyat</strong>: Ücretli (licensing model)</li>
+<li><strong>Özellikers</strong>:</li>
+<li>Finite Element Analysis (FEA)</li>
+<li>Computational Fluid Dynamics (CFD)</li>
+<li>Electromagnetic</li>
+<li>Multiphysics</li>
+<li>Optimization</li>
+<li>Thermal analysis</li>
+<li>Structural analysis</li>
+<li>Fluid dynamics</li>
+<li><strong>En İyi Kullanım</strong>: Engineering simulation</li>
+<li><strong>Web</strong>: https://www.ansys.com</li>
+</ul>
+<h3 id="17-abaqus">17. Abaqus<a class="headerlink" href="#17-abaqus" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, Linux</li>
+<li><strong>Fiyat</strong>: Ücretli (licensing model)</li>
+<li><strong>Özellikers</strong>:</li>
+<li>FEA solver</li>
+<li>Nonlinear analysis</li>
+<li>Structural analysis</li>
+<li>Dynamic analysis</li>
+<li>Explicit solver</li>
+<li>Implicit solver</li>
+<li>Material models</li>
+<li>Multiphysics</li>
+<li><strong>En İyi Kullanım</strong>: Advanced structural analysis</li>
+<li><strong>Web</strong>: https://www.3ds.com/products-services/simulia/products/abaqus</li>
+</ul>
+<h3 id="18-comsol-multiphysics">18. COMSOL Multiphysics<a class="headerlink" href="#18-comsol-multiphysics" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretli (licensing model)</li>
+<li><strong>Özellikers</strong>:</li>
+<li>Multiphysics simulation</li>
+<li>PDE (Partial Differential Equations)</li>
+<li>Custom physics</li>
+<li>Modeling</li>
+<li>Optimization</li>
+<li>Application Builder</li>
+<li>LiveLink integration</li>
+<li>CAD import</li>
+<li><strong>En İyi Kullanım</strong>: Multiphysics simulation</li>
+<li><strong>Web</strong>: https://www.comsol.com</li>
+</ul>
+<h3 id="19-simscale">19. SimScale<a class="headerlink" href="#19-simscale" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Ücretsiz (Community) / Ücretli (Professional, Enterprise)</li>
+<li><strong>Özellikers</strong>:</li>
+<li>Cloud-based CAE</li>
+<li>FEA, CFD</li>
+<li>Thermal analysis</li>
+<li>Fluid dynamics</li>
+<li>Meshing</li>
+<li>Post-processing</li>
+<li>Collaboration</li>
+<li>Web-based</li>
+<li><strong>En İyi Kullanım</strong>: Cloud simulation</li>
+<li><strong>Web</strong>: https://www.simscale.com</li>
+</ul>
+<h3 id="20-solidworks-simulation">20. SOLIDWORKS Simulation<a class="headerlink" href="#20-solidworks-simulation" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows</li>
+<li><strong>Fiyat</strong>: Ücretli (add-on to SOLIDWORKS)</li>
+<li><strong>Özellikers</strong>:</li>
+<li>FEA integration</li>
+<li>Structural analysis</li>
+<li>Motion analysis</li>
+<li>Thermal analysis</li>
+<li>Flow simulation</li>
+<li>Optimization</li>
+<li>Meshing</li>
+<li>Design studies</li>
+<li><strong>En İyi Kullanım</strong>: Integrated simulation</li>
+<li><strong>Web</strong>: https://www.solidworks.com/product/simulation</li>
+</ul>
+<hr />
+<p><strong>Son Güncelleme</strong>: 2026
+<strong>Not</strong>: Her bir programın güncel sürümü ve fiyatı için resmi web sitelerini ziyaret edin.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Kopyaland\u0131", "clipboard.copy": "Kopyala", "search.result.more.one": "Bu sayfada 1 tane daha", "search.result.more.other": "Bu sayfada # tane daha", "search.result.none": "E\u015fle\u015fen dok\u00fcman bulunamad\u0131", "search.result.one": "1 dok\u00fcman bulundu", "search.result.other": "# dok\u00fcman bulundu", "search.result.placeholder": "Aramaya ba\u015flamak i\u00e7in yaz\u0131n", "search.result.term.missing": "Eksik", "select.version": "Versiyon se\u00e7"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

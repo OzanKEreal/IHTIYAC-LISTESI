@@ -1,0 +1,2512 @@
+
+<!doctype html>
+<html lang="tr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Yazılım, teknoloji ve dijital araçlar hakkında kapsamlı Türkçe rehberler">
+      
+      
+        <meta name="author" content="Teknoloji Rehberleri Ekibi">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Bulut Depolama - Teknoloji Rehberleri</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#bulut-depolama-ve-sinkronizasyon" class="md-skip">
+          Ana içeriğe geç
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Başlık">
+    <a href=".." title="Teknoloji Rehberleri" class="md-header__button md-logo" aria-label="Teknoloji Rehberleri" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Teknoloji Rehberleri
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Bulut Depolama
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Koyu mod"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Koyu mod" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Açık mod"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Açık mod" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Ara" placeholder="Ara" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Ara">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Temizle" aria-label="Temizle" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Arama başlatılıyor
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Sekmeler" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Ana Sayfa
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../docs/API-Test-Web-Geliştirme.md" class="md-tabs__link">
+          
+  
+  
+  Geliştirme
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../docs/Ağ-Analizi.md" class="md-tabs__link">
+          
+  
+  
+  Sistem & Araçlar
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../docs/3D-Modelleme.md" class="md-tabs__link">
+          
+  
+  
+  Tasarım & Medya
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../docs/Dijital-Pazarlama-Sosyal-Medya.md" class="md-tabs__link">
+          
+  
+  
+  Ofis & Üretkenlik
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../docs/Tarayıcılar.md" class="md-tabs__link">
+          
+  
+  
+  Tarayıcılar
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigasyon" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Teknoloji Rehberleri" class="md-nav__button md-logo" aria-label="Teknoloji Rehberleri" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Teknoloji Rehberleri
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ana Sayfa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geliştirme
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Geliştirme
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/API-Test-Web-Geliştirme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Test & Web Geliştirme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Blockchain-Kripto.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blockchain & Kripto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Bulut-Bilisim-DevOps.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bulut Bilişim & DevOps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/E-Ticaret-CMS.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    E-Ticaret & CMS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Kodeditör.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kod Editör
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Mobil-Uygulama-Geliştirme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mobil Uygulama Geliştirme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Oyun-Geliştirme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oyun Geliştirme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Proje-Yönetimi.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proje Yönetimi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Veri-Bilimi-ML.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Veri Bilimi & ML
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Veritabanı-Yönetimi.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Veritabanı Yönetimi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Yapay-Zeka-Otomasyon.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Yapay Zeka & Otomasyon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistem & Araçlar
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sistem & Araçlar
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Ağ-Analizi.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ağ Analizi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Antivirüs-Güvenlik.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antivirüs & Güvenlik
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Bulut-Depolama.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bulut Depolama
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Disk-Analizi-Temizlik.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Disk Analizi & Temizlik
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Dosya-Kurtarma.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dosya Kurtarma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Dosya-Sıkıştırma.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dosya Sıkıştırma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Dosya-Transferi.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dosya Transferi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/PDF-Araçları.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PDF Araçları
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Sanal-Makine.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sanal Makine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Sistem-Optimize.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistem Optimize
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Sistem-İzleme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistem İzleme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Terminal-Tools.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Terminal Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tasarım & Medya
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tasarım & Medya
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/3D-Modelleme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3D Modelleme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/CAD-Mühendislik.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CAD Mühendislik
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Ekran-Kayıtı.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ekran Kaydı
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Fotoğraf-Düzenleme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fotoğraf Düzenleme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Grafik-Tasarım.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grafik Tasarım
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Ses-Editörleri.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ses Editörleri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Video-Editörleri.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Video Editörleri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ofis & Üretkenlik
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ofis & Üretkenlik
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Dijital-Pazarlama-Sosyal-Medya.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dijital Pazarlama & Sosyal Medya
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/E-posta-İletişim.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    E-posta & İletişim
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Eğitim-Öğrenme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Eğitim & Öğrenme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Markdown-Editörleri.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Markdown Editörleri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Mesajlaşma.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mesajlaşma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Not-Alma.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Not Alma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Ofis-Programları.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ofis Programları
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Sosyal-Medya-Yönetimi.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sosyal Medya Yönetimi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tarayıcılar
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tarayıcılar
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Tarayıcılar.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tarayıcılar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="İçindekiler">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      İçindekiler
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bulut-depolama-ve-sinkronizasyon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BULUT DEPOLAMA VE SİNKRONİZASYON
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#populer-bulut-depolama-hizmetleri" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Popüler Bulut Depolama Hizmetleri
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Popüler Bulut Depolama Hizmetleri">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-google-drive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Google Drive
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-microsoft-onedrive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Microsoft OneDrive
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-dropbox" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Dropbox
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-apple-icloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Apple iCloud
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-box" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Box
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ozellestirilebilir-bulut-depolama" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Özelleştirilebilir Bulut Depolama
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Özelleştirilebilir Bulut Depolama">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6-pcloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. pCloud
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-synccom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Sync.com
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-icedrive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Icedrive
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-mega" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. MEGA
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-tresorit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Tresorit
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#self-hosted-ve-private-cloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Self-Hosted ve Private Cloud
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Self-Hosted ve Private Cloud">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-nextcloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Nextcloud
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-owncloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. ownCloud
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-seafile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Seafile
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-synology-drive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. Synology Drive
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-pydio-cells" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. Pydio Cells
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#media-ve-fotograf-odakl-bulut-depolama" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Media ve Fotoğraf Odaklı Bulut Depolama
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Media ve Fotoğraf Odaklı Bulut Depolama">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#16-flickr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16. Flickr
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-smugmug" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17. SmugMug
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-amazon-photos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18. Amazon Photos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19-google-photos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        19. Google Photos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20-apple-photos-icloud-photos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20. Apple Photos (iCloud Photos)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Bulut Depolama</h1>
+
+<h3 id="bulut-depolama-ve-sinkronizasyon">BULUT DEPOLAMA VE SİNKRONİZASYON<a class="headerlink" href="#bulut-depolama-ve-sinkronizasyon" title="Permanent link">&para;</a></h3>
+<hr />
+<h2 id="populer-bulut-depolama-hizmetleri">Popüler Bulut Depolama Hizmetleri<a class="headerlink" href="#populer-bulut-depolama-hizmetleri" title="Permanent link">&para;</a></h2>
+<h3 id="1-google-drive">1. Google Drive<a class="headerlink" href="#1-google-drive" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, Windows, macOS, iOS, Android</li>
+<li><strong>Fiyat</strong>: Ücretsiz (15GB) / Ücretli ($1.99-299.99/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Google ekosistemi entegrasyonu</li>
+<li>Real-time collaboration</li>
+<li>File sharing</li>
+<li>Version history</li>
+<li>Offline access</li>
+<li>AI-powered search</li>
+<li>Google Docs integration</li>
+<li>Mobile backup</li>
+<li>Scan to PDF</li>
+<li><strong>En İyi Kullanım</strong>: Google kullanıcıları ve collaboration</li>
+<li><strong>Web</strong>: https://www.google.com/drive</li>
+</ul>
+<h3 id="2-microsoft-onedrive">2. Microsoft OneDrive<a class="headerlink" href="#2-microsoft-onedrive" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, Windows, macOS, iOS, Android</li>
+<li><strong>Fiyat</strong>: Ücretsiz (5GB) / Ücretli ($1.99-12.50/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Windows entegrasyonu</li>
+<li>Microsoft 365 ile çalışır</li>
+<li>Personal vault</li>
+<li>File sharing</li>
+<li>Version history</li>
+<li>Ransomware detection</li>
+<li>Files On-Demand</li>
+<li>Camera upload</li>
+<li>Backup (PC, Mac, Phone)</li>
+<li><strong>En İyi Kullanım</strong>: Windows ve Microsoft 365</li>
+<li><strong>Web</strong>: https://www.microsoft.com/onedrive</li>
+</ul>
+<h3 id="3-dropbox">3. Dropbox<a class="headerlink" href="#3-dropbox" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, Windows, macOS, iOS, Android</li>
+<li><strong>Fiyat</strong>: Ücretsiz (2GB) / Ücretli ($9.99-30/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Simple interface</li>
+<li>File sharing</li>
+<li>Smart Sync</li>
+<li>Version history</li>
+<li>File requests</li>
+<li>Transfer (up to 100GB)</li>
+<li>Password protect links</li>
+<li>Remote device wipe</li>
+<li>Backup (PC, Mac)</li>
+<li><strong>En İyi Kullanım</strong>: Kolay dosya paylaşımı</li>
+<li><strong>Web</strong>: https://www.dropbox.com</li>
+</ul>
+<h3 id="4-apple-icloud">4. Apple iCloud<a class="headerlink" href="#4-apple-icloud" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: macOS, iOS, Windows, Web</li>
+<li><strong>Fiyat</strong>: Ücretsiz (5GB) / Ücretli ($0.99-29.95/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Apple ekosistemi</li>
+<li>Photos sync</li>
+<li>Device backup</li>
+<li>Find My iPhone</li>
+<li>Keychain (passwords)</li>
+<li>iCloud Drive</li>
+<li>iCloud Photos</li>
+<li>Collaboration</li>
+<li>Private Relay (VPN)</li>
+<li><strong>En İyi Kullanım</strong>: Apple kullanıcıları</li>
+<li><strong>Web</strong>: https://www.icloud.com</li>
+</ul>
+<h3 id="5-box">5. Box<a class="headerlink" href="#5-box" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, Windows, macOS, iOS, Android</li>
+<li><strong>Fiyat</strong>: Ücretsiz (10GB) / Ücretli ($5-35/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Enterprise-focused</li>
+<li>Advanced security</li>
+<li>File sharing</li>
+<li>Collaboration</li>
+<li>Workflow automation</li>
+<li>Sign (e-signature)</li>
+<li>Integration (Microsoft, Google, Slack)</li>
+<li>Governance &amp; compliance</li>
+<li>Retention policies</li>
+<li><strong>En İyi Kullanım</strong>: İş ve enterprise</li>
+<li><strong>Web</strong>: https://www.box.com</li>
+</ul>
+<h2 id="ozellestirilebilir-bulut-depolama">Özelleştirilebilir Bulut Depolama<a class="headerlink" href="#ozellestirilebilir-bulut-depolama" title="Permanent link">&para;</a></h2>
+<h3 id="6-pcloud">6. pCloud<a class="headerlink" href="#6-pcloud" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, Windows, macOS, iOS, Android, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz (10GB) / Ücretli ($3.99-7.99/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Lifetime subscription</li>
+<li>Client-side encryption</li>
+<li>File sharing</li>
+<li>Rewind (file versions)</li>
+<li>Media player</li>
+<li>Extension support</li>
+<li>Virtual drive</li>
+<li>Crypto folder</li>
+<li><strong>En İyi Kullanım:</strong> Lifetime subscription ve encryption</li>
+<li><strong>Web</strong>: https://www.pcloud.com</li>
+</ul>
+<h3 id="7-synccom">7. Sync.com<a class="headerlink" href="#7-synccom" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, Windows, macOS, iOS, Android</li>
+<li><strong>Fiyat</strong>: Ücretsiz (5GB) / Ücretli ($8-15/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Zero-knowledge encryption</li>
+<li>Canada-based</li>
+<li>File sharing</li>
+<li>Secure vault</li>
+<li>File requests</li>
+<li>Calendar integration</li>
+<li>Team folders</li>
+<li>Mobile apps</li>
+<li><strong>En İyi Kullanım</strong>: Privacy odaklı storage</li>
+<li><strong>Web</strong>: https://www.sync.com</li>
+</ul>
+<h3 id="8-icedrive">8. Icedrive<a class="headerlink" href="#8-icedrive" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, Windows, macOS, iOS, Android</li>
+<li><strong>Fiyat</strong>: Ücretsiz (10GB) / Ücretli ($2.99-14.99/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Twofish encryption</li>
+<li>Virtual drive</li>
+<li>Mount as drive</li>
+<li>File sharing</li>
+<li>Zero-knowledge</li>
+<li>Auto-upload</li>
+<li>Files versioning</li>
+<li>Password protect</li>
+<li><strong>En İyi Kullanım</strong>: Privacy ve virtual drive</li>
+<li><strong>Web</strong>: https://icedrive.net</li>
+</ul>
+<h3 id="9-mega">9. MEGA<a class="headerlink" href="#9-mega" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, Windows, macOS, iOS, Android</li>
+<li><strong>Fiyat</strong>: Ücretsiz (20GB) / Ücretli ($4.90-22.49/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>End-to-end encryption</li>
+<li>Large storage</li>
+<li>File sharing</li>
+<li>Chat encrypted</li>
+<li>Secure transfer</li>
+<li>File requests</li>
+<li>Backup</li>
+<li>Camera upload</li>
+<li><strong>En İyi Kullanım</strong>: Büyük dosya depolama</li>
+<li><strong>Web</strong>: https://mega.io</li>
+</ul>
+<h3 id="10-tresorit">10. Tresorit<a class="headerlink" href="#10-tresorit" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, Windows, macOS, iOS, Android</li>
+<li><strong>Fiyat</strong>: Ücretsiz deneme / Ücretli ($8.33-24/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>End-to-end encryption</li>
+<li>Advanced security</li>
+<li>File sharing</li>
+<li>Access controls</li>
+<li>Swiss-based</li>
+<li>GDPR compliant</li>
+<li>Integration (Microsoft, Google)</li>
+<li>Governance</li>
+<li><strong>En İyi Kullanım</strong>: Enterprise güvenlik</li>
+<li><strong>Web</strong>: https://tresorit.com</li>
+</ul>
+<h2 id="self-hosted-ve-private-cloud">Self-Hosted ve Private Cloud<a class="headerlink" href="#self-hosted-ve-private-cloud" title="Permanent link">&para;</a></h2>
+<h3 id="11-nextcloud">11. Nextcloud<a class="headerlink" href="#11-nextcloud" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Linux server (clients: Windows, macOS, iOS, Android)</li>
+<li><strong>Fiyat</strong>: Ücretsiz (self-hosted) / Ücretli (enterprise)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Self-hosted</li>
+<li>Open source</li>
+<li>File sharing</li>
+<li>Collaboration (Office, Calendar, Contacts)</li>
+<li>Encryption</li>
+<li>2FA</li>
+<li>App ecosystem</li>
+<li>Integration</li>
+<li>Custom domain</li>
+<li><strong>En İyi Kullanım</strong>: Self-hosted private cloud</li>
+<li><strong>Web</strong>: https://nextcloud.com</li>
+</ul>
+<h3 id="12-owncloud">12. ownCloud<a class="headerlink" href="#12-owncloud" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Linux server (clients: Windows, macOS, iOS, Android)</li>
+<li><strong>Fiyat</strong>: Ücretsiz (community) / Ücretli (enterprise)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Open source</li>
+<li>Self-hosted</li>
+<li>File sharing</li>
+<li>Enterprise features</li>
+<li>Workflow automation</li>
+<li>Data privacy</li>
+<li>Security features</li>
+<li>Integration</li>
+<li><strong>En İyi Kullanım</strong>: Self-hosted enterprise</li>
+<li><strong>Web</strong>: https://owncloud.com</li>
+</ul>
+<h3 id="13-seafile">13. Seafile<a class="headerlink" href="#13-seafile" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Linux server (clients: Windows, macOS, iOS, Android)</li>
+<li><strong>Fiyat</strong>: Ücretsiz (community) / Ücretli (Pro - $120-300/yıl)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>High performance</li>
+<li>Open source</li>
+<li>Self-hosted</li>
+<li>File encryption</li>
+<li>File versioning</li>
+<li>Synchronization</li>
+<li>WORM (write-once-read-many)</li>
+<li>Team features</li>
+<li><strong>En İyi Kullanım</strong>: High-performance self-hosted</li>
+<li><strong>Web</strong>: https://www.seafile.com</li>
+</ul>
+<h3 id="14-synology-drive">14. Synology Drive<a class="headerlink" href="#14-synology-drive" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Synology NAS (clients: Windows, macOS, iOS, Android)</li>
+<li><strong>Fiyat</strong>: Ücretsiz (Synology NAS ile birlikte)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>NAS entegrasyonu</li>
+<li>File sync</li>
+<li>Version history</li>
+<li>File sharing</li>
+<li>On-demand sync</li>
+<li>Offline access</li>
+<li>Backup</li>
+<li>Collaboration</li>
+<li><strong>En İyi Kullanım</strong>: Synology NAS kullanıcıları</li>
+<li><strong>Web</strong>: https://www.synology.com</li>
+</ul>
+<h3 id="15-pydio-cells">15. Pydio Cells<a class="headerlink" href="#15-pydio-cells" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Linux server (clients: Windows, macOS, iOS, Android)</li>
+<li><strong>Fiyat</strong>: Ücretsiz (community) / Ücretli (enterprise)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Open source</li>
+<li>Self-hosted</li>
+<li>Enterprise-focused</li>
+<li>Advanced security</li>
+<li>Governance</li>
+<li>Integration</li>
+<li>File sharing</li>
+<li>Collaboration</li>
+<li><strong>En İyi Kullanım</strong>: Enterprise self-hosted</li>
+<li><strong>Web</strong>: https://pydio.com</li>
+</ul>
+<h2 id="media-ve-fotograf-odakl-bulut-depolama">Media ve Fotoğraf Odaklı Bulut Depolama<a class="headerlink" href="#media-ve-fotograf-odakl-bulut-depolama" title="Permanent link">&para;</a></h2>
+<h3 id="16-flickr">16. Flickr<a class="headerlink" href="#16-flickr" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, iOS, Android</li>
+<li><strong>Fiyat</strong>: Ücretsiz (1000 fotoğraf) / Ücretli ($7.99-10.99/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Photo sharing</li>
+<li>Community</li>
+<li>Organize albums</li>
+<li>Advanced photo editing</li>
+<li>Groups</li>
+<li>Explore</li>
+<li>Statistics</li>
+<li><strong>En İyi Kullanım</strong>: Fotoğrafçılık community</li>
+<li><strong>Web</strong>: https://www.flickr.com</li>
+</ul>
+<h3 id="17-smugmug">17. SmugMug<a class="headerlink" href="#17-smugmug" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, iOS, Android</li>
+<li><strong>Fiyat</strong>: Ücretli ($9-42/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Photo storage</li>
+<li>Portfolio sites</li>
+<li>E-commerce (sell photos)</li>
+<li>Unlimited storage</li>
+<li>Full-resolution backup</li>
+<li>Printing</li>
+<li>Digital downloads</li>
+<li><strong>En İyi Kullanım</strong>: Profesyonel fotoğrafçılar</li>
+<li><strong>Web</strong>: https://www.smugmug.com</li>
+</ul>
+<h3 id="18-amazon-photos">18. Amazon Photos<a class="headerlink" href="#18-amazon-photos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, iOS, Android, Fire devices</li>
+<li><strong>Fiyat</strong>: Ücretsiz (unlimited photos for Prime members)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Unlimited photo storage</li>
+<li>5GB video storage (Prime)</li>
+<li>Auto backup</li>
+<li>Family vault</li>
+<li>Search</li>
+<li>Print (US only)</li>
+<li>Shared albums</li>
+<li><strong>En İyi Kullanım</strong>: Amazon Prime üyeleri</li>
+<li><strong>Web</strong>: https://www.amazon.com/photos</li>
+</ul>
+<h3 id="19-google-photos">19. Google Photos<a class="headerlink" href="#19-google-photos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, iOS, Android</li>
+<li><strong>Fiyat</strong>: Ücretsiz (15GB shared) / Ücretli ($1.99-9.99/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Photo backup</li>
+<li>AI-powered features</li>
+<li>Memory (öneriler)</li>
+<li>Photo editing</li>
+<li>Shared albums</li>
+<li>Motion photos</li>
+<li>Cinematic photos</li>
+<li>Portrait light</li>
+<li><strong>En İyi Kullanım</strong>: AI-powered fotoğraf yönetimi</li>
+<li><strong>Web</strong>: https://photos.google.com</li>
+</ul>
+<h3 id="20-apple-photos-icloud-photos">20. Apple Photos (iCloud Photos)<a class="headerlink" href="#20-apple-photos-icloud-photos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: macOS, iOS, Windows, Web</li>
+<li><strong>Fiyat</strong>: Ücretsiz (5GB shared) / Ücretli ($0.99-29.95/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Apple ekosistemi</li>
+<li>Intelligent curation</li>
+<li>Memories</li>
+<li>For You</li>
+<li>Shared albums</li>
+<li>Live Photos</li>
+<li>Photo editing</li>
+<li>iCloud sync</li>
+<li><strong>En İyi Kullanım</strong>: Apple fotoğraf yönetimi</li>
+<li><strong>Web</strong>: https://www.icloud.com/photos</li>
+</ul>
+<hr />
+<p><strong>Son Güncelleme</strong>: 2026
+<strong>Not</strong>: Her bir programın güncel sürümü ve fiyatı için resmi web sitelerini ziyaret edin.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Kopyaland\u0131", "clipboard.copy": "Kopyala", "search.result.more.one": "Bu sayfada 1 tane daha", "search.result.more.other": "Bu sayfada # tane daha", "search.result.none": "E\u015fle\u015fen dok\u00fcman bulunamad\u0131", "search.result.one": "1 dok\u00fcman bulundu", "search.result.other": "# dok\u00fcman bulundu", "search.result.placeholder": "Aramaya ba\u015flamak i\u00e7in yaz\u0131n", "search.result.term.missing": "Eksik", "select.version": "Versiyon se\u00e7"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

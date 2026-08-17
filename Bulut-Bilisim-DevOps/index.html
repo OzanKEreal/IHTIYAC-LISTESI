@@ -1,0 +1,2712 @@
+
+<!doctype html>
+<html lang="tr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Yazılım, teknoloji ve dijital araçlar hakkında kapsamlı Türkçe rehberler">
+      
+      
+        <meta name="author" content="Teknoloji Rehberleri Ekibi">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Bulut Bilisim DevOps - Teknoloji Rehberleri</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#bulut-bilisim-ve-devops" class="md-skip">
+          Ana içeriğe geç
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Başlık">
+    <a href=".." title="Teknoloji Rehberleri" class="md-header__button md-logo" aria-label="Teknoloji Rehberleri" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Teknoloji Rehberleri
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Bulut Bilisim DevOps
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Koyu mod"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Koyu mod" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Açık mod"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Açık mod" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Ara" placeholder="Ara" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Ara">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Temizle" aria-label="Temizle" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Arama başlatılıyor
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Sekmeler" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Ana Sayfa
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../docs/API-Test-Web-Geliştirme.md" class="md-tabs__link">
+          
+  
+  
+  Geliştirme
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../docs/Ağ-Analizi.md" class="md-tabs__link">
+          
+  
+  
+  Sistem & Araçlar
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../docs/3D-Modelleme.md" class="md-tabs__link">
+          
+  
+  
+  Tasarım & Medya
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../docs/Dijital-Pazarlama-Sosyal-Medya.md" class="md-tabs__link">
+          
+  
+  
+  Ofis & Üretkenlik
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../docs/Tarayıcılar.md" class="md-tabs__link">
+          
+  
+  
+  Tarayıcılar
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigasyon" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Teknoloji Rehberleri" class="md-nav__button md-logo" aria-label="Teknoloji Rehberleri" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Teknoloji Rehberleri
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ana Sayfa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geliştirme
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Geliştirme
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/API-Test-Web-Geliştirme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API Test & Web Geliştirme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Blockchain-Kripto.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blockchain & Kripto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Bulut-Bilisim-DevOps.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bulut Bilişim & DevOps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/E-Ticaret-CMS.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    E-Ticaret & CMS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Kodeditör.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kod Editör
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Mobil-Uygulama-Geliştirme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mobil Uygulama Geliştirme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Oyun-Geliştirme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oyun Geliştirme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Proje-Yönetimi.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proje Yönetimi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Veri-Bilimi-ML.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Veri Bilimi & ML
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Veritabanı-Yönetimi.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Veritabanı Yönetimi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Yapay-Zeka-Otomasyon.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Yapay Zeka & Otomasyon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistem & Araçlar
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sistem & Araçlar
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Ağ-Analizi.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ağ Analizi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Antivirüs-Güvenlik.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antivirüs & Güvenlik
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Bulut-Depolama.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bulut Depolama
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Disk-Analizi-Temizlik.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Disk Analizi & Temizlik
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Dosya-Kurtarma.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dosya Kurtarma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Dosya-Sıkıştırma.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dosya Sıkıştırma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Dosya-Transferi.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dosya Transferi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/PDF-Araçları.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PDF Araçları
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Sanal-Makine.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sanal Makine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Sistem-Optimize.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistem Optimize
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Sistem-İzleme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sistem İzleme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Terminal-Tools.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Terminal Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tasarım & Medya
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tasarım & Medya
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/3D-Modelleme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3D Modelleme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/CAD-Mühendislik.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CAD Mühendislik
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Ekran-Kayıtı.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ekran Kaydı
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Fotoğraf-Düzenleme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fotoğraf Düzenleme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Grafik-Tasarım.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grafik Tasarım
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Ses-Editörleri.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ses Editörleri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Video-Editörleri.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Video Editörleri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ofis & Üretkenlik
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ofis & Üretkenlik
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Dijital-Pazarlama-Sosyal-Medya.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dijital Pazarlama & Sosyal Medya
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/E-posta-İletişim.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    E-posta & İletişim
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Eğitim-Öğrenme.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Eğitim & Öğrenme
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Markdown-Editörleri.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Markdown Editörleri
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Mesajlaşma.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mesajlaşma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Not-Alma.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Not Alma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Ofis-Programları.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ofis Programları
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Sosyal-Medya-Yönetimi.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sosyal Medya Yönetimi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tarayıcılar
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tarayıcılar
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/Tarayıcılar.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tarayıcılar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="İçindekiler">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      İçindekiler
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bulut-bilisim-ve-devops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BULUT BİLİŞİM VE DEVOPS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bulut-hizmet-saglayclar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bulut Hizmet Sağlayıcıları
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bulut Hizmet Sağlayıcıları">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-amazon-web-services-aws" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Amazon Web Services (AWS)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-microsoft-azure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Microsoft Azure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-google-cloud-platform-gcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Google Cloud Platform (GCP)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-alibaba-cloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Alibaba Cloud
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-ibm-cloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. IBM Cloud
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#konteyner-ve-orkestrasyon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Konteyner ve Orkestrasyon
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Konteyner ve Orkestrasyon">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6-docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Docker
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Kubernetes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-docker-compose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Docker Compose
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-rancher" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Rancher
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-openshift" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. OpenShift
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cicd-ve-otomasyon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CI/CD ve Otomasyon
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CI/CD ve Otomasyon">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-jenkins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Jenkins
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-github-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. GitHub Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-gitlab-cicd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. GitLab CI/CD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-circleci" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. CircleCI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-travis-ci" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. Travis CI
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monitorleme-ve-loglama" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monitörleme ve Loglama
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monitörleme ve Loglama">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#16-prometheus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16. Prometheus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-grafana" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17. Grafana
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-elk-stack-elasticsearch-logstash-kibana" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18. ELK Stack (Elasticsearch, Logstash, Kibana)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19-datadog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        19. Datadog
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20-new-relic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20. New Relic
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#infrastructure-as-code-iac" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infrastructure as Code (IaC)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Infrastructure as Code (IaC)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-terraform" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        21. Terraform
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-ansible" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        22. Ansible
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-cloudformation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        23. CloudFormation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-azure-resource-manager-arm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        24. Azure Resource Manager (ARM)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-pulumi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        25. Pulumi
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Bulut Bilisim DevOps</h1>
+
+<h3 id="bulut-bilisim-ve-devops">BULUT BİLİŞİM VE DEVOPS<a class="headerlink" href="#bulut-bilisim-ve-devops" title="Permanent link">&para;</a></h3>
+<hr />
+<h2 id="bulut-hizmet-saglayclar">Bulut Hizmet Sağlayıcıları<a class="headerlink" href="#bulut-hizmet-saglayclar" title="Permanent link">&para;</a></h2>
+<h3 id="1-amazon-web-services-aws">1. Amazon Web Services (AWS)<a class="headerlink" href="#1-amazon-web-services-aws" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Pay-as-you-go (Ücretsiz katman mevcut)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Geniş hizmet yelpazesi</li>
+<li>Compute (EC2, Lambda)</li>
+<li>Storage (S3, EBS)</li>
+<li>Database (RDS, DynamoDB)</li>
+<li>Networking (VPC, CloudFront)</li>
+<li>Machine Learning (SageMaker, Rekognition)</li>
+<li>Security (IAM, Shield)</li>
+<li>DevOps (CodePipeline, CodeDeploy)</li>
+<li>Serverless (Lambda, Fargate)</li>
+<li>Enterprise support</li>
+<li><strong>En İyi Kullanım</strong>: Kapsamlı bulut çözümleri ve enterprise uygulamalar</li>
+<li><strong>Web</strong>: https://aws.amazon.com</li>
+</ul>
+<h3 id="2-microsoft-azure">2. Microsoft Azure<a class="headerlink" href="#2-microsoft-azure" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Pay-as-you-go (Ücretsiz katman mevcut)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Windows ve Linux uyumlu</li>
+<li>Compute (VMs, Functions)</li>
+<li>Storage (Blob, Disk)</li>
+<li>Database (SQL, Cosmos DB)</li>
+<li>Networking (VNet, CDN)</li>
+<li>AI (Cognitive Services, Machine Learning)</li>
+<li>DevOps (DevOps, GitHub Actions)</li>
+<li>Hybrid cloud (Azure Stack)</li>
+<li>Enterprise integration</li>
+<li>Microsoft ecosystem</li>
+<li><strong>En İyi Kullanım</strong>: Microsoft tabanlı uygulamalar ve enterprise</li>
+<li><strong>Web</strong>: https://azure.microsoft.com</li>
+</ul>
+<h3 id="3-google-cloud-platform-gcp">3. Google Cloud Platform (GCP)<a class="headerlink" href="#3-google-cloud-platform-gcp" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Pay-as-you-go (Ücretsiz katman mevcut)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Machine learning odaklı</li>
+<li>Compute (Compute Engine, Cloud Run)</li>
+<li>Storage (Cloud Storage, BigQuery)</li>
+<li>Database (Cloud SQL, Firestore)</li>
+<li>AI/ML (Vertex AI, AutoML)</li>
+<li>Kubernetes (GKE, Anthos)</li>
+<li>Serverless (Cloud Functions)</li>
+<li>Big data (BigQuery, Dataflow)</li>
+<li>Analytics (Looker, Data Studio)</li>
+<li>Developer tools</li>
+<li><strong>En İyi Kullanım</strong>: AI/ML ve veri analizi uygulamaları</li>
+<li><strong>Web</strong>: https://cloud.google.com</li>
+</ul>
+<h3 id="4-alibaba-cloud">4. Alibaba Cloud<a class="headerlink" href="#4-alibaba-cloud" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Pay-as-you-go (Ücretsiz katman mevcut)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Asya pazarı odaklı</li>
+<li>Compute (ECS, Function Compute)</li>
+<li>Storage (OSS, NAS)</li>
+<li>Database (RDS, PolarDB)</li>
+<li>AI/ML (PAI, Machine Learning)</li>
+<li>Networking (VPC, CDN)</li>
+<li>Security (WAF, DDoS Protection)</li>
+<li>Big data (MaxCompute, Data Lake)</li>
+<li>Database services</li>
+<li>Enterprise solutions</li>
+<li><strong>En İyi Kullanım</strong>: Asya pazarı ve enterprise uygulamalar</li>
+<li><strong>Web</strong>: https://www.alibabacloud.com</li>
+</ul>
+<h3 id="5-ibm-cloud">5. IBM Cloud<a class="headerlink" href="#5-ibm-cloud" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Pay-as-you-go (Ücretsiz katman mevcut)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Enterprise odaklı</li>
+<li>Hybrid cloud</li>
+<li>AI/ML (Watson, ML)</li>
+<li>Compute (Virtual Servers, Functions)</li>
+<li>Storage (Object Storage, Block Storage)</li>
+<li>Database (DB2, Cloudant)</li>
+<li>Kubernetes (OpenShift, Kubernetes Service)</li>
+<li>DevOps (DevOps, Continuous Delivery)</li>
+<li>Security (Security Center, Identity)</li>
+<li>Enterprise integration</li>
+<li><strong>En İyi Kullanım</strong>: Kurumsal uygulamalar ve hibrit bulut</li>
+<li><strong>Web</strong>: https://www.ibm.com/cloud</li>
+</ul>
+<h2 id="konteyner-ve-orkestrasyon">Konteyner ve Orkestrasyon<a class="headerlink" href="#konteyner-ve-orkestrasyon" title="Permanent link">&para;</a></h2>
+<h3 id="6-docker">6. Docker<a class="headerlink" href="#6-docker" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz / Ücretli (Personal, Pro, Team)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Containerization platform</li>
+<li>Image management</li>
+<li>Container orchestration</li>
+<li>Docker Compose</li>
+<li>Docker Swarm</li>
+<li>Docker Hub</li>
+<li>Container security</li>
+<li>Developer tools</li>
+<li>Integration tools</li>
+<li>Community support</li>
+<li><strong>En İyi Kullanım</strong>: Uygulama konteynerleştirme ve dağıtım</li>
+<li><strong>Web</strong>: https://www.docker.com</li>
+</ul>
+<h3 id="7-kubernetes">7. Kubernetes<a class="headerlink" href="#7-kubernetes" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz ve Açık Kaynak</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Container orchestration</li>
+<li>Automated deployment</li>
+<li>Scaling</li>
+<li>Load balancing</li>
+<li>Self-healing</li>
+<li>Service discovery</li>
+<li>Storage orchestration</li>
+<li>Batch execution</li>
+<li>Configuration management</li>
+<li>Resource management</li>
+<li><strong>En İyi Kullanım</strong>: Büyük ölçekli konteyner orkestrasyonu</li>
+<li><strong>Web</strong>: https://kubernetes.io</li>
+</ul>
+<h3 id="8-docker-compose">8. Docker Compose<a class="headerlink" href="#8-docker-compose" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Multi-container orchestration</li>
+<li>YAML configuration</li>
+<li>Service management</li>
+<li>Volume management</li>
+<li>Network management</li>
+<li>Environment variables</li>
+<li>Build management</li>
+<li>Development workflow</li>
+<li>Local development</li>
+<li>Testing environments</li>
+<li><strong>En İyi Kullanım</strong>: Yerel geliştirme ve çoklu konteyner yönetimi</li>
+<li><strong>Web</strong>: https://docs.docker.com/compose</li>
+</ul>
+<h3 id="9-rancher">9. Rancher<a class="headerlink" href="#9-rancher" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Ücretsiz / Ücretli (Pro, Enterprise)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Kubernetes management</li>
+<li>Multi-cluster management</li>
+<li>Container orchestration</li>
+<li>Workload management</li>
+<li>Security management</li>
+<li>Monitoring</li>
+<li>Logging</li>
+<li>Backup and restore</li>
+<li>Integration tools</li>
+<li>Enterprise features</li>
+<li><strong>En İyi Kullanım</strong>: Kubernetes yönetimi ve orkestrasyon</li>
+<li><strong>Web</strong>: https://rancher.com</li>
+</ul>
+<h3 id="10-openshift">10. OpenShift<a class="headerlink" href="#10-openshift" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Ücretsiz / Ücretli (Starter, Pro, Enterprise)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Enterprise Kubernetes</li>
+<li>Container platform</li>
+<li>Multi-cloud support</li>
+<li>DevOps tools</li>
+<li>Security management</li>
+<li>Monitoring and logging</li>
+<li>CI/CD integration</li>
+<li>Developer tools</li>
+<li>Enterprise support</li>
+<li>Red Hat ecosystem</li>
+<li><strong>En İyi Kullanım</strong>: Kurumsal Kubernetes platformu</li>
+<li><strong>Web</strong>: https://www.openshift.com</li>
+</ul>
+<h2 id="cicd-ve-otomasyon">CI/CD ve Otomasyon<a class="headerlink" href="#cicd-ve-otomasyon" title="Permanent link">&para;</a></h2>
+<h3 id="11-jenkins">11. Jenkins<a class="headerlink" href="#11-jenkins" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz ve Açık Kaynak</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Continuous integration</li>
+<li>Continuous delivery</li>
+<li>Plugin ecosystem</li>
+<li>Pipeline as Code</li>
+<li>Distributed builds</li>
+<li>Automated testing</li>
+<li>Artifact management</li>
+<li>Security management</li>
+<li>Integration tools</li>
+<li>Community support</li>
+<li><strong>En İyi Kullanım</strong>: CI/CD otomasyonu ve pipeline yönetimi</li>
+<li><strong>Web</strong>: https://www.jenkins.io</li>
+</ul>
+<h3 id="12-github-actions">12. GitHub Actions<a class="headerlink" href="#12-github-actions" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Ücretsiz / Ücretli (Pro, Team, Enterprise)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>CI/CD automation</li>
+<li>Workflow automation</li>
+<li>GitHub integration</li>
+<li>Marketplace actions</li>
+<li>Container registry</li>
+<li>Artifact management</li>
+<li>Security scanning</li>
+<li>Multi-platform support</li>
+<li>Enterprise features</li>
+<li>Community actions</li>
+<li><strong>En İyi Kullanım</strong>: GitHub tabanlı CI/CD otomasyonu</li>
+<li><strong>Web</strong>: https://github.com/features/actions</li>
+</ul>
+<h3 id="13-gitlab-cicd">13. GitLab CI/CD<a class="headerlink" href="#13-gitlab-cicd" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Ücretsiz / Ücretli (Premium, Ultimate)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Integrated CI/CD</li>
+<li>Pipeline management</li>
+<li>Container registry</li>
+<li>Artifact management</li>
+<li>Security scanning</li>
+<li>Auto DevOps</li>
+<li>Monitoring and logging</li>
+<li>Multi-platform support</li>
+<li>Enterprise features</li>
+<li>DevOps platform</li>
+<li><strong>En İyi Kullanım</strong>: Tümleşik DevOps platformu</li>
+<li><strong>Web</strong>: https://gitlab.com</li>
+</ul>
+<h3 id="14-circleci">14. CircleCI<a class="headerlink" href="#14-circleci" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Ücretsiz / Ücretli ($15-400/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Cloud-based CI/CD</li>
+<li>Fast builds</li>
+<li>Parallel execution</li>
+<li>Docker support</li>
+<li>Kubernetes support</li>
+<li>Security scanning</li>
+<li>Artifact management</li>
+<li>Integration tools</li>
+<li>Enterprise features</li>
+<li>Performance monitoring</li>
+<li><strong>En İyi Kullanım</strong>: Hızlı ve ölçeklenebilir CI/CD</li>
+<li><strong>Web</strong>: https://circleci.com</li>
+</ul>
+<h3 id="15-travis-ci">15. Travis CI<a class="headerlink" href="#15-travis-ci" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Ücretsiz / Ücretli ($49-399/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Cloud-based CI</li>
+<li>GitHub integration</li>
+<li>Multiple language support</li>
+<li>Parallel builds</li>
+<li>Matrix builds</li>
+<li>Security scanning</li>
+<li>Container support</li>
+<li>Integration tools</li>
+<li>Enterprise features</li>
+<li>Community support</li>
+<li><strong>En İyi Kullanım</strong>: GitHub projeleri için CI çözümü</li>
+<li><strong>Web</strong>: https://travis-ci.com</li>
+</ul>
+<h2 id="monitorleme-ve-loglama">Monitörleme ve Loglama<a class="headerlink" href="#monitorleme-ve-loglama" title="Permanent link">&para;</a></h2>
+<h3 id="16-prometheus">16. Prometheus<a class="headerlink" href="#16-prometheus" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz ve Açık Kaynak</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Monitoring and alerting</li>
+<li>Time series database</li>
+<li>Query language (PromQL)</li>
+<li>Alerting rules</li>
+<li>Service discovery</li>
+<li>Multi-dimensional data model</li>
+<li>Exporters</li>
+<li>Grafana integration</li>
+<li>Kubernetes integration</li>
+<li>Community support</li>
+<li><strong>En İyi Kullanım</strong>: Sistem ve uygulama monitörleme</li>
+<li><strong>Web</strong>: https://prometheus.io</li>
+</ul>
+<h3 id="17-grafana">17. Grafana<a class="headerlink" href="#17-grafana" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz / Ücretli (Pro, Enterprise)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Visualization and monitoring</li>
+<li>Dashboard creation</li>
+<li>Data source integration</li>
+<li>Alerting</li>
+<li>Collaboration tools</li>
+<li>Plugin ecosystem</li>
+<li>Enterprise features</li>
+<li>Multi-platform support</li>
+<li>Integration tools</li>
+<li>Community support</li>
+<li><strong>En İyi Kullanım</strong>: Veri görselleştirme ve monitörleme</li>
+<li><strong>Web</strong>: https://grafana.com</li>
+</ul>
+<h3 id="18-elk-stack-elasticsearch-logstash-kibana">18. ELK Stack (Elasticsearch, Logstash, Kibana)<a class="headerlink" href="#18-elk-stack-elasticsearch-logstash-kibana" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz / Ücretli (Cloud, Enterprise)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Log management</li>
+<li>Data search and analytics</li>
+<li>Real-time monitoring</li>
+<li>Dashboard creation</li>
+<li>Data ingestion</li>
+<li>Data processing</li>
+<li>Visualization</li>
+<li>Alerting</li>
+<li>Integration tools</li>
+<li>Enterprise features</li>
+<li><strong>En İyi Kullanım</strong>: Log yönetimi ve veri analizi</li>
+<li><strong>Web</strong>: https://www.elastic.co</li>
+</ul>
+<h3 id="19-datadog">19. Datadog<a class="headerlink" href="#19-datadog" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Ücretsiz / Ücretli ($15-23/agent/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Monitoring and analytics</li>
+<li>APM (Application Performance Monitoring)</li>
+<li>Infrastructure monitoring</li>
+<li>Log management</li>
+<li>Security monitoring</li>
+<li>Business analytics</li>
+<li>Real-time dashboards</li>
+<li>Alerting</li>
+<li>Integration tools</li>
+<li>Enterprise features</li>
+<li><strong>En İyi Kullanım</strong>: Kapsamlı monitörleme ve analiz</li>
+<li><strong>Web</strong>: https://www.datadoghq.com</li>
+</ul>
+<h3 id="20-new-relic">20. New Relic<a class="headerlink" href="#20-new-relic" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Ücretsiz / Ücretli ($49-499/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Application performance monitoring</li>
+<li>Infrastructure monitoring</li>
+<li>Real-time analytics</li>
+<li>APM solutions</li>
+<li>Mobile monitoring</li>
+<li>Synthetic monitoring</li>
+<li>User experience monitoring</li>
+<li>Alerting</li>
+<li>Integration tools</li>
+<li>Enterprise features</li>
+<li><strong>En İyi Kullanım</strong>: Uygulama performansı ve kullanıcı deneyimi</li>
+<li><strong>Web</strong>: https://newrelic.com</li>
+</ul>
+<h2 id="infrastructure-as-code-iac">Infrastructure as Code (IaC)<a class="headerlink" href="#infrastructure-as-code-iac" title="Permanent link">&para;</a></h2>
+<h3 id="21-terraform">21. Terraform<a class="headerlink" href="#21-terraform" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz / Ücretli (Cloud, Enterprise)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Infrastructure as code</li>
+<li>Multi-cloud support</li>
+<li>Declarative configuration</li>
+<li>State management</li>
+<li>Provider ecosystem</li>
+<li>Module system</li>
+<li>Plan and apply</li>
+<li>Enterprise features</li>
+<li>Integration tools</li>
+<li>Community support</li>
+<li><strong>En İyi Kullanım</strong>: Altyapı kodlama ve yönetimi</li>
+<li><strong>Web</strong>: https://www.terraform.io</li>
+</ul>
+<h3 id="22-ansible">22. Ansible<a class="headerlink" href="#22-ansible" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz / Ücretli (Tower, Automation Platform)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Configuration management</li>
+<li>Application deployment</li>
+<li>Task automation</li>
+<li>Agentless architecture</li>
+<li>YAML-based playbooks</li>
+<li>Inventory management</li>
+<li>Role system</li>
+<li>Integration tools</li>
+<li>Enterprise features</li>
+<li>Community support</li>
+<li><strong>En İyi Kullanım</strong>: Konfigürasyon yönetimi ve otomasyon</li>
+<li><strong>Web</strong>: https://www.ansible.com</li>
+</ul>
+<h3 id="23-cloudformation">23. CloudFormation<a class="headerlink" href="#23-cloudformation" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Ücretsiz (AWS kullanım ücretleri)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>AWS infrastructure as code</li>
+<li>Template-based configuration</li>
+<li>Stack management</li>
+<li>Change sets</li>
+<li>Nested stacks</li>
+<li>Parameter management</li>
+<li>Resource management</li>
+<li>Integration with AWS</li>
+<li>Enterprise features</li>
+<li>AWS ecosystem</li>
+<li><strong>En İyi Kullanım</strong>: AWS altyapısı yönetimi</li>
+<li><strong>Web</strong>: https://aws.amazon.com/cloudformation</li>
+</ul>
+<h3 id="24-azure-resource-manager-arm">24. Azure Resource Manager (ARM)<a class="headerlink" href="#24-azure-resource-manager-arm" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web</li>
+<li><strong>Fiyat</strong>: Ücretsiz (Azure kullanım ücretleri)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Azure infrastructure as code</li>
+<li>Template-based configuration</li>
+<li>Resource groups</li>
+<li>Deployment scripts</li>
+<li>Policy management</li>
+<li>Tagging</li>
+<li>Integration with Azure</li>
+<li>Enterprise features</li>
+<li>Azure ecosystem</li>
+<li>Management tools</li>
+<li><strong>En İyi Kullanım</strong>: Azure altyapısı yönetimi</li>
+<li><strong>Web</strong>: https://docs.microsoft.com/en-us/azure/azure-resource-manager</li>
+</ul>
+<h3 id="25-pulumi">25. Pulumi<a class="headerlink" href="#25-pulumi" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Platform</strong>: Web, Windows, macOS, Linux</li>
+<li><strong>Fiyat</strong>: Ücretsiz / Ücretli ($7-400/ay)</li>
+<li><strong>Özellikler</strong>:</li>
+<li>Infrastructure as code</li>
+<li>Multi-cloud support</li>
+<li>Programming languages (Python, TypeScript, etc.)</li>
+<li>State management</li>
+<li>Policy as code</li>
+<li>Continuous delivery</li>
+<li>Integration tools</li>
+<li>Enterprise features</li>
+<li>Developer experience</li>
+<li>Community support</li>
+<li><strong>En İyi Kullanım</strong>: Programlama dilleri ile altyapı yönetimi</li>
+<li><strong>Web</strong>: https://www.pulumi.com</li>
+</ul>
+<hr />
+<p><strong>Son Güncelleme</strong>: 2026
+<strong>Not</strong>: Her bir programın güncel sürümü ve fiyatı için resmi web sitelerini ziyaret edin.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Kopyaland\u0131", "clipboard.copy": "Kopyala", "search.result.more.one": "Bu sayfada 1 tane daha", "search.result.more.other": "Bu sayfada # tane daha", "search.result.none": "E\u015fle\u015fen dok\u00fcman bulunamad\u0131", "search.result.one": "1 dok\u00fcman bulundu", "search.result.other": "# dok\u00fcman bulundu", "search.result.placeholder": "Aramaya ba\u015flamak i\u00e7in yaz\u0131n", "search.result.term.missing": "Eksik", "select.version": "Versiyon se\u00e7"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
