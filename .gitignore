@@ -1,0 +1,27 @@
+```
+# Build artifacts and generated site
+site/
+*.min.js
+*.min.css
+*.map
+
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
