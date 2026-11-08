@@ -1,3 +1,10 @@
+Geliştirilmiyor!
+Youtube kanalımın sebebsiz yere silinmesinden sonra Hevesim kalmadığı ve Yeterli AI Gücünü Bulamadığım için;
+Repository artık Güncel değildir.
+Güncellenmeyecektir!
+PR Atabilirsiniz.
+## 8 Kasım 2026 Pazar 23:17
+
 # İHTİYAÇ TÜRLERİNE GÖRE PROGRAM LISTESİ
 * YOUTUBE: OZANKE34
 * KATEGORILER AŞAĞIDADIR TIKLAYARAK GİDEBİLİRSİNİZ
